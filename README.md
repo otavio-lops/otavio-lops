@@ -25,9 +25,10 @@ Uma extensão para Chrome para a plataforma Ferretto que gera um cronograma de e
 <br>
 
 ## 📈 Estatísticas
-<p align="center">
+<p>
   <img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=otavio-lops&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=otavio-lops&layout=compact&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=otavio-lops&layout=compact&theme=dracula"/><br>
+  <img src="https://komarev.com/ghpvc/?username=otavio-lops&label=VISITANTES&color=bd93f9&style=for-the-badge"/>
 </p>
 
 <br>
