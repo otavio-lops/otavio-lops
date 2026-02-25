@@ -34,5 +34,5 @@ Uma extensão para Chrome para a plataforma Ferretto que gera um cronograma de e
 <br>
 
 ## 📫 Contato
-- 💬 Discord: **akkui**
-- 📧 Email: [otavio.lops@proton.me](mailto:otavio.lops@proton.me)
+![Discord](https://img.shields.io/badge/Discord-akkui-blue?style=flat-square)<br>
+![E-mail](https://img.shields.io/badge/Email-otavio.lops%40proton.me-blue?style=flat-square)
