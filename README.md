@@ -26,13 +26,13 @@ Uma extensão para Chrome para a plataforma Ferretto que gera um cronograma de e
 
 ## 📈 Estatísticas
 <p>
-  <img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=otavio-lops&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=otavio-lops&layout=compact&theme=dracula"/><br>
-  <img src="https://komarev.com/ghpvc/?username=otavio-lops&label=VISITANTES&color=bd93f9&style=for-the-badge"/>
+  <img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=otavio-lops&show_icons=true&theme=nord&include_all_commits=true&count_private=true&locale=pt-br"/>
+  <img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=otavio-lops&layout=compact&theme=nord&locale=pt-br"/><br>
+  <img src="https://komarev.com/ghpvc/?username=otavio-lops&label=VISITANTES&color=6f89a5&style=for-the-badge"/>
 </p>
 
 <br>
 
 ## 📫 Contato
-![Discord](https://img.shields.io/badge/Discord-akkui-blue?style=flat-square)<br>
-![E-mail](https://img.shields.io/badge/Email-otavio.lops%40proton.me-blue?style=flat-square)
+[![E-mail](https://img.shields.io/badge/Email%20(Resposta%20rápida)-otavio.lops%40proton.me-6f89a5?style=flat-square)](mailto:otavio.lops@proton.me)<br>
+![Discord](https://img.shields.io/badge/Discord%20(Contato%20alternativo,%20lento)-akkui-6f89a5?style=flat-square)
