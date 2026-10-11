@@ -1,0 +1,65 @@
+﻿# Otávio Lopes
+
+> Desenvolvedor de software em Guaíba, RS, Brasil. Sistemas de gestão, produtos web, aplicativos e automação com IA. Entusiasta de Segurança da Informação.
+
+## Identidade e contato
+
+- Site: https://otaviolopes.com.br/
+- GitHub: https://github.com/otavio-lops
+- Contato: https://otaviolopes.com.br/#contato (botão que abre o formulário em popup). Primeiro retorno em até 8h; depois, combina-se um canal direto para continuar a conversa.
+- Inglês: resultado geral C2 Proficient no EF SET (71/100; leitura 84/C2 e compreensão oral 58/B2). Certificado: https://cert.efset.org/8QAYNV.
+- Espanhol: A2, em aprendizado.
+- Portfólio em português (pt-BR), inglês (en-US) e espanhol (es-ES), na mesma URL.
+
+## Pousada Gestor
+
+Sistema on-premises desenvolvido por Otávio e utilizado na Pousada do Trabalhador, em Canoas, RS. Centraliza reservas, estadias, check-in individual e em grupo, transferências de quartos, faturamento para empresas, notas fiscais, recibos, caixa, bar, limpeza, manutenção e acessos por função. O aplicativo Android leva a operação ao celular, com recursos nativos de câmera e leitura de documentos. Fornece disponibilidade e recebe reservas do AtendeFlow.
+
+Página do projeto: https://otaviolopes.com.br/projetos/pousada-gestor.html
+
+Operação real: https://pousadadotrabalhador.com/
+
+## AtendeFlow
+
+Sistema de atendimento 100% autônomo com IA desenvolvido por Otávio. Atua por telefone e WhatsApp, 24 horas por dia, 7 dias por semana, atendendo vários clientes ao mesmo tempo. A implementação apresentada está em uso na Pousada do Trabalhador.
+
+Página do projeto: https://otaviolopes.com.br/projetos/atendeflow.html
+
+Fluxo implementado: por ligação, apresenta acomodações, responde dúvidas e oferece continuar pelo WhatsApp. No WhatsApp, coleta dados, consulta disponibilidade no Pousada Gestor, apresenta o resumo, cria cobrança no Asaas após confirmação, verifica o pagamento, realiza a reserva no Pousada Gestor e envia o comprovante.
+
+AtendeFlow executa o atendimento e a operação. Pousada Gestor é o sistema operacional integrado. Pousada do Trabalhador é a operação real onde a integração é utilizada.
+
+WhatsApp público de atendimento: https://wa.me/555123917293.
+
+## SeuDental
+
+Software odontológico SaaS que conecta agenda, pacientes, prontuários, odontograma, equipe, financeiro e estoque, com suporte a múltiplas clínicas.
+
+Otávio lidera o desenvolvimento do produto. A IA pode executar todas as ações disponíveis ao usuário humano na interface: quem preferir pode operar todo o sistema por comandos, incluindo agenda, registros clínicos e gestão. Também oferece escuta durante o atendimento, recaps e resumos do odontograma para revisão profissional.
+
+Página do projeto: https://otaviolopes.com.br/projetos/seudental.html
+
+Site: https://seudental.com.br/
+
+## GaragemWeb
+
+Plataforma de desenvolvimento e administração de sites, catálogos e landing pages para empresas. O painel centraliza sites, páginas, ofertas, conteúdo e acompanhamento de acessos. A construção inclui metadados, dados estruturados, sitemap, desempenho e adaptação a diferentes telas. O site público apresenta trabalhos como Emanuel Salgados, Óptica Visão Premium e Autocar.
+
+Otávio desenvolve a experiência pública e as ferramentas de administração da plataforma.
+
+Página do projeto: https://otaviolopes.com.br/projetos/garagemweb.html
+
+Site: https://garagemweb.com/
+
+## Evidências e escopo
+
+Os projetos possuem páginas próprias no portfólio:
+
+- https://otaviolopes.com.br/projetos/pousada-gestor.html
+- https://otaviolopes.com.br/projetos/atendeflow.html
+- https://otaviolopes.com.br/projetos/seudental.html
+- https://otaviolopes.com.br/projetos/garagemweb.html
+
+As imagens incluem retrato, logos, certificado, painel e aplicativo do Pousada Gestor e telas dos sites oficiais do SeuDental e da GaragemWeb. As telas do SeuDental contêm dados demonstrativos. Não são informados números de clientes, usuários ou resultados comerciais. Pousada Gestor é o sistema de gestão; AtendeFlow é o atendimento integrado; Pousada do Trabalhador é a operação hoteleira em que ambos são utilizados.
+
+

@@ -1,0 +1,1203 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Desenvolvedor de software em Guaíba, RS. Crio sistemas de gestão, produtos web, aplicativos e automações com IA. Conheça meus projetos e entre em contato."
+    />
+    <meta name="author" content="Otávio Lopes" />
+    <meta name="theme-color" content="#f3f4f5" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Otávio Lopes" />
+    <meta property="og:url" content="https://otaviolopes.com.br/" />
+    <meta
+      property="og:title"
+      content="Otávio Lopes | Desenvolvedor de software e IA"
+    />
+    <meta
+      property="og:description"
+      content="Desenvolvedor de software em Guaíba, RS. Crio sistemas de gestão, produtos web, aplicativos e automações com IA. Conheça meus projetos e entre em contato."
+    />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta
+      property="og:image"
+      content="https://otaviolopes.com.br/imagens/profile/otavio-lopes.webp"
+    />
+    <meta property="og:image:alt" content="Otávio Lopes" />
+    <meta property="profile:first_name" content="Otávio" />
+    <meta property="profile:last_name" content="Lopes" />
+    <meta property="profile:username" content="otavio-lops" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Otávio Lopes | Desenvolvedor de software e IA"
+    />
+    <meta
+      name="twitter:description"
+      content="Desenvolvedor de software em Guaíba, RS. Crio sistemas de gestão, produtos web, aplicativos e automações com IA. Conheça meus projetos e entre em contato."
+    />
+    <meta
+      name="twitter:image"
+      content="https://otaviolopes.com.br/imagens/profile/otavio-lopes.webp"
+    />
+    <meta name="twitter:image:alt" content="Otávio Lopes" />
+    <link rel="canonical" href="https://otaviolopes.com.br/" />
+    <link rel="author" href="https://github.com/otavio-lops" />
+    <link rel="icon" type="image/webp" href="./imagens/brand/favicon.webp" />
+    <link
+      rel="preload"
+      href="./fonts/manrope-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin=""
+    />
+    <title>Otávio Lopes | Desenvolvedor de software e IA</title>
+    <script>
+      (() => {
+        let theme;
+        try {
+          theme = localStorage.getItem("otavio-theme-choice");
+        } catch (_) {}
+        document.documentElement.dataset.theme = ["light", "dark"].includes(
+          theme,
+        )
+          ? theme
+          : matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "https://otaviolopes.com.br/#profile",
+            "url": "https://otaviolopes.com.br/",
+            "name": "Otávio Lopes | Desenvolvedor de software e IA",
+            "description": "Desenvolvedor de software em Guaíba, RS. Crio sistemas de gestão, produtos web, aplicativos e automações com IA. Conheça meus projetos e entre em contato.",
+            "inLanguage": "pt-BR",
+            "isPartOf": {
+              "@id": "https://otaviolopes.com.br/#website"
+            },
+            "mainEntity": {
+              "@id": "https://otaviolopes.com.br/#person"
+            },
+            "about": [
+              {
+                "@id": "https://otaviolopes.com.br/projetos/pousada-gestor.html#software"
+              },
+              {
+                "@id": "https://otaviolopes.com.br/projetos/atendeflow.html#software"
+              },
+              {
+                "@id": "https://otaviolopes.com.br/projetos/seudental.html#software"
+              },
+              {
+                "@id": "https://otaviolopes.com.br/projetos/garagemweb.html#software"
+              }
+            ],
+            "hasPart": {
+              "@id": "https://otaviolopes.com.br/#projetos"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://otaviolopes.com.br/#website",
+            "url": "https://otaviolopes.com.br/",
+            "name": "Otávio Lopes",
+            "description": "Desenvolvedor de software em Guaíba, RS. Crio sistemas de gestão, produtos web, aplicativos e automações com IA. Conheça meus projetos e entre em contato.",
+            "inLanguage": ["pt-BR", "en-US", "es-ES"],
+            "publisher": {
+              "@id": "https://otaviolopes.com.br/#person"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://otaviolopes.com.br/#person",
+            "name": "Otávio Lopes",
+            "url": "https://otaviolopes.com.br/",
+            "image": "https://otaviolopes.com.br/imagens/profile/otavio-lopes.webp",
+            "jobTitle": "Desenvolvedor de software",
+            "description": "Crio sistemas de gestão, produtos web e automações com IA. Software que organiza a operação, conecta processos e atende clientes — com projetos que você pode conhecer aqui.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Guaíba",
+              "addressRegion": "RS",
+              "addressCountry": "BR"
+            },
+            "sameAs": ["https://github.com/otavio-lops"],
+            "knowsLanguage": ["pt-BR", "en", "es"],
+            "affiliation": {
+              "@type": "Organization",
+              "name": "GaragemWeb",
+              "url": "https://garagemweb.com/"
+            },
+            "knowsAbout": [
+              "Desenvolvimento de software",
+              "Sistemas de gestão",
+              "Automação com inteligência artificial",
+              "Integrações de sistemas",
+              "Segurança da Informação"
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://otaviolopes.com.br/#projetos",
+            "name": "Projetos de software",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "url": "https://otaviolopes.com.br/projetos/pousada-gestor.html",
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "@id": "https://otaviolopes.com.br/projetos/pousada-gestor.html#software",
+                  "name": "Pousada Gestor",
+                  "url": "https://otaviolopes.com.br/projetos/pousada-gestor.html",
+                  "description": "Desenvolvi o sistema que reúne a gestão da Pousada do Trabalhador, em Canoas. Da entrada do hóspede ao faturamento da empresa, cada etapa tem seu lugar.",
+                  "applicationCategory": "BusinessApplication",
+                  "image": "https://otaviolopes.com.br/imagens/projects/pousada-gestor/dashboard.webp",
+                  "inLanguage": "pt-BR",
+                  "creator": {
+                    "@id": "https://otaviolopes.com.br/#person"
+                  },
+                  "mainEntityOfPage": {
+                    "@id": "https://otaviolopes.com.br/projetos/pousada-gestor.html#webpage"
+                  },
+                  "operatingSystem": "Web, Android"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "url": "https://otaviolopes.com.br/projetos/atendeflow.html",
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "@id": "https://otaviolopes.com.br/projetos/atendeflow.html#software",
+                  "name": "AtendeFlow",
+                  "url": "https://otaviolopes.com.br/projetos/atendeflow.html",
+                  "description": "Criei um atendimento com IA que responde dúvidas por telefone e conduz reservas pelo WhatsApp: consulta disponibilidade, gera cobranças e confirma a hospedagem. 100% autônomo, atendendo 24 horas por dia, 7 dias por semana, vários clientes ao mesmo tempo.",
+                  "applicationCategory": "BusinessApplication",
+                  "image": "https://otaviolopes.com.br/imagens/projects/atendeflow/logo.webp",
+                  "inLanguage": "pt-BR",
+                  "creator": {
+                    "@id": "https://otaviolopes.com.br/#person"
+                  },
+                  "mainEntityOfPage": {
+                    "@id": "https://otaviolopes.com.br/projetos/atendeflow.html#webpage"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "url": "https://otaviolopes.com.br/projetos/seudental.html",
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "@id": "https://otaviolopes.com.br/projetos/seudental.html#software",
+                  "name": "SeuDental",
+                  "url": "https://otaviolopes.com.br/projetos/seudental.html",
+                  "description": "Lidero o desenvolvimento de um sistema odontológico que conecta agenda, prontuários, odontograma, financeiro e estoque. A IA executa as mesmas ações disponíveis ao usuário: toda a operação pode ser feita por comandos, com suporte a múltiplas clínicas.",
+                  "applicationCategory": "HealthApplication",
+                  "image": "https://otaviolopes.com.br/imagens/projects/seudental/dashboard.webp",
+                  "inLanguage": "pt-BR",
+                  "creator": {
+                    "@id": "https://otaviolopes.com.br/#person"
+                  },
+                  "mainEntityOfPage": {
+                    "@id": "https://otaviolopes.com.br/projetos/seudental.html#webpage"
+                  },
+                  "sameAs": "https://seudental.com.br/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "url": "https://otaviolopes.com.br/projetos/garagemweb.html",
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "@id": "https://otaviolopes.com.br/projetos/garagemweb.html#software",
+                  "name": "GaragemWeb",
+                  "url": "https://otaviolopes.com.br/projetos/garagemweb.html",
+                  "description": "Crio sites, catálogos e landing pages e desenvolvo a plataforma que permite administrá-los. Entre os trabalhos estão Emanuel Salgados, Óptica Visão Premium e Autocar.",
+                  "applicationCategory": "BusinessApplication",
+                  "image": "https://otaviolopes.com.br/imagens/projects/garagemweb/dashboard.webp",
+                  "inLanguage": "pt-BR",
+                  "creator": {
+                    "@id": "https://otaviolopes.com.br/#person"
+                  },
+                  "mainEntityOfPage": {
+                    "@id": "https://otaviolopes.com.br/projetos/garagemweb.html#webpage"
+                  },
+                  "sameAs": "https://garagemweb.com/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="./vendor/select2.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo" data-i18n="skip"
+      >Ir para o conteúdo</a
+    >
+    <header class="site-header container">
+      <a class="brand" href="#inicio" aria-label="otávio.lopes"
+        >otávio<span class="brand-dot">.</span>lopes</a
+      >
+      <nav
+        id="navigation"
+        class="main-nav"
+        aria-label="Navegação principal"
+        data-i18n-aria="navigation"
+      >
+        <a href="#inicio" data-i18n="nav_home">Início</a
+        ><a href="#projetos" data-i18n="nav_projects">Projetos</a
+        ><a href="#sobre" data-i18n="nav_about">Sobre</a
+        ><button
+          class="button header-contact contact-open"
+          type="button"
+          data-i18n="contact_action"
+          aria-haspopup="dialog"
+          aria-controls="contact-dialog"
+        >
+          Entrar em contato
+        </button>
+      </nav>
+      <div class="header-controls">
+        <label class="sr-only" for="language" data-i18n="language"
+          >Idioma</label
+        >
+        <div class="language-picker">
+          <select id="language">
+            <option value="auto" data-i18n="automatic">Automático</option>
+            <option value="pt" lang="pt-BR">PT</option>
+            <option value="en" lang="en-US">EN</option>
+            <option value="es" lang="es-ES">ES</option>
+          </select>
+        </div>
+        <button
+          type="button"
+          class="theme-toggle"
+          aria-label="Ativar tema escuro"
+          aria-pressed="false"
+        >
+          <span class="theme-symbol" aria-hidden="true"></span>
+        </button>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="Menu"
+          data-i18n-aria="menu"
+          aria-controls="navigation"
+          aria-expanded="false"
+        >
+          <span data-i18n="menu">Menu</span
+          ><span class="menu-symbol" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="conteudo">
+      <section id="inicio" class="hero container" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="hero-specialties">
+            <p class="hero-profession">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18" /></svg
+              ><span data-i18n="hero_label">Desenvolvedor de software</span>
+            </p>
+            <p class="hero-profession">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6l-8-3Z" />
+                <rect x="9" y="10" width="6" height="5" rx="1" />
+                <path d="M10 10V8a2 2 0 0 1 4 0v2" /></svg
+              ><span data-i18n="security_label"
+                >Entusiasta de Segurança da Informação</span
+              >
+            </p>
+          </div>
+          <h1 id="hero-title">
+            Otávio Lopes<span class="name-period">.</span>
+          </h1>
+          <p data-i18n="hero_statement" class="hero-statement">
+            Transformo processos do seu negócio em software.
+          </p>
+          <p data-i18n="hero_summary" class="hero-summary">
+            Crio sistemas de gestão, produtos web e automações com IA. Software
+            que organiza a operação, conecta processos e atende clientes — com
+            projetos que você pode conhecer aqui.
+          </p>
+          <div class="hero-credentials">
+            <button
+              class="language-badge certificate-open"
+              type="button"
+              aria-label="Ver certificado C2"
+              data-i18n-aria="certificate"
+            >
+              <span class="credential-code" aria-hidden="true">EN</span
+              ><span class="credential-copy"
+                ><strong data-i18n="english_level">Inglês C2</strong
+                ><span data-i18n="english_detail"
+                  >Proficiente · EF SET</span
+                ></span
+              >
+            </button>
+            <div class="language-badge">
+              <span class="credential-code" aria-hidden="true">ES</span
+              ><span class="credential-copy"
+                ><strong data-i18n="spanish_level">Espanhol A2</strong
+                ><span data-i18n="spanish_detail">Em aprendizado</span></span
+              >
+            </div>
+          </div>
+          <div class="actions">
+            <a class="button" href="#projetos"
+              ><span data-i18n="explore">Conheça meus projetos</span
+              ><span aria-hidden="true">↘</span></a
+            ><a class="button button-secondary" href="#contato"
+              ><span data-i18n="talk">Fale sobre seu projeto</span
+              ><span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <figure class="hero-portrait">
+          <div class="portrait-light" aria-hidden="true"></div>
+          <img
+            src="./imagens/profile/otavio-lopes.webp"
+            width="512"
+            height="512"
+            alt="Otávio Lopes"
+            fetchpriority="high"
+          />
+          <figcaption data-i18n="portrait_caption">
+            Guaíba, Rio Grande do Sul / Brasil
+          </figcaption>
+        </figure>
+      </section>
+      <section
+        id="projetos"
+        class="projects container section"
+        aria-labelledby="projects-title"
+      >
+        <div class="section-intro">
+          <h2 data-i18n="projects_title" id="projects-title">
+            O que eu desenvolvo, na prática.
+          </h2>
+        </div>
+        <article
+          id="pousada-gestor"
+          class="case case-pousada"
+          aria-labelledby="p-name"
+        >
+          <div class="case-heading">
+            <div>
+              <div class="project-identity">
+                <img
+                  class="project-logo"
+                  src="./imagens/projects/pousada-gestor/logo.webp"
+                  width="56"
+                  height="56"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="project-title-group">
+                  <h3 id="p-name">Pousada Gestor</h3>
+                  <p data-i18n="p_category" class="case-category">
+                    Gestão hoteleira / On-premises
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="case-description">
+              <p data-i18n="p_title" class="case-statement">
+                Reservas, caixa e equipe em um só sistema.
+              </p>
+              <p data-i18n="p_text">
+                Desenvolvi o sistema que reúne a gestão da Pousada do
+                Trabalhador, em Canoas. Da entrada do hóspede ao faturamento da
+                empresa, cada etapa tem seu lugar.
+              </p>
+              <a
+                class="button project-detail-button"
+                href="./projetos/pousada-gestor.html"
+                ><span data-i18n="view_project">Ver o projeto</span></a
+              >
+              <a
+                class="button button-secondary"
+                href="https://pousadadotrabalhador.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span data-i18n="visit_operation">Conheça a pousada</span></a
+              >
+            </div>
+            <div class="operation-map">
+              <div>
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M3 18v-9m18 9v-6H3m3 0V7h5v5m2 0V7h5a3 3 0 0 1 3 3v2M3 16h18"
+                  />
+                </svg>
+                <div>
+                  <h4 data-i18n="p_stays">Hospedagem</h4>
+                  <p data-i18n="p_stays_text">
+                    Reservas, check-in individual e em grupo, estadias e troca
+                    de quartos.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M20 8V5H5a2 2 0 0 0 0 4h15v11H5a2 2 0 0 1-2-2V7m17 6h-5v4h5"
+                  />
+                </svg>
+                <div>
+                  <h4 data-i18n="p_finance">Financeiro</h4>
+                  <p data-i18n="p_finance_text">
+                    Cobranças para empresas, notas fiscais, recibos e controle
+                    de caixa.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="9" cy="8" r="3" />
+                  <path
+                    d="M3 20v-2a6 6 0 0 1 12 0v2m1-15a3 3 0 0 1 0 6m2 3a5 5 0 0 1 3 4v2"
+                  />
+                </svg>
+                <div>
+                  <h4 data-i18n="p_team">Operação interna</h4>
+                  <p data-i18n="p_team_text">
+                    Bar, limpeza e manutenção, com acesso individual para a
+                    equipe.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a class="integration-link text-link" href="#atendeflow"
+              ><span data-i18n="p_integration"
+                >Atendimento que vira reserva. Veja o AtendeFlow</span
+              ></a
+            >
+          </div>
+          <figure class="case-visual pousada-media">
+            <div class="image-link">
+              <img
+                src="./imagens/projects/pousada-gestor/dashboard.webp"
+                srcset="
+                  ./imagens/projects/pousada-gestor/dashboard-640.webp  640w,
+                  ./imagens/projects/pousada-gestor/dashboard.webp     1792w
+                "
+                sizes="(max-width: 767px) 92vw, 45vw"
+                alt="Visão geral do painel do Pousada Gestor"
+                data-i18n-alt="photo_alt"
+                width="1792"
+                height="878"
+                loading="lazy"
+              />
+              <img
+                class="pousada-phone"
+                src="./imagens/projects/pousada-gestor/mobile.webp"
+                width="941"
+                height="1672"
+                alt="App do Pousada Gestor para celular com mapa de ocupação dos quartos"
+                data-i18n-alt="pousada_phone_alt"
+                loading="lazy"
+              />
+            </div>
+          </figure>
+        </article>
+        <article
+          id="atendeflow"
+          class="case case-flow"
+          aria-labelledby="a-name"
+        >
+          <div class="case-heading">
+            <div>
+              <div class="project-identity">
+                <img
+                  class="project-logo"
+                  src="./imagens/projects/atendeflow/logo.webp"
+                  width="56"
+                  height="56"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="project-title-group">
+                  <h3 id="a-name">AtendeFlow</h3>
+                  <p data-i18n="a_category" class="case-category">
+                    Atendimento autônomo com IA
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="case-description">
+              <p data-i18n="a_title" class="case-statement">
+                Atendimento que consulta, cobra e confirma reservas.
+              </p>
+              <p data-i18n="a_text">
+                Criei um atendimento com IA que responde dúvidas por telefone e
+                conduz reservas pelo WhatsApp: consulta disponibilidade, gera
+                cobranças e confirma a hospedagem. 100% autônomo, atendendo 24
+                horas por dia, 7 dias por semana, vários clientes ao mesmo
+                tempo.
+              </p>
+            </div>
+            <div class="flow-details">
+              <div>
+                <p data-i18n="a_context">
+                  Em uso na Pousada do Trabalhador, com reservas no Pousada
+                  Gestor e cobranças pelo Asaas.
+                </p>
+              </div>
+              <div class="flow-actions">
+                <a
+                  class="button project-detail-button"
+                  href="./projetos/atendeflow.html"
+                  ><span data-i18n="view_project">Ver o projeto</span></a
+                ><a
+                  class="button button-secondary"
+                  href="https://wa.me/555123917293"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><span data-i18n="a_call"
+                    >Mandar mensagem para o AtendeFlow da Pousada</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="flow-board">
+            <div class="flow-board-heading">
+              <img
+                src="./imagens/projects/atendeflow/logo.webp"
+                width="44"
+                height="44"
+                alt=""
+                loading="lazy"
+              /><span
+                >AtendeFlow <span aria-hidden="true">/</span> Pousada Gestor
+                <span aria-hidden="true">/</span> Asaas</span
+              >
+            </div>
+            <ol class="flow-steps">
+              <li>
+                <span class="step-number" aria-hidden="true">01</span>
+                <h4 data-i18n="a_1">Atende e coleta</h4>
+                <p data-i18n="a_1_text">
+                  Conversa por ligação, interage pelo WhatsApp e reúne os dados
+                  do cliente.
+                </p>
+              </li>
+              <li>
+                <span class="step-number" aria-hidden="true">02</span>
+                <h4 data-i18n="a_2">Consulta e cobra</h4>
+                <p data-i18n="a_2_text">
+                  Consulta informações no Pousada Gestor e cria a cobrança no
+                  Asaas.
+                </p>
+              </li>
+              <li>
+                <span class="step-number" aria-hidden="true">03</span>
+                <h4 data-i18n="a_3">Verifica e reserva</h4>
+                <p data-i18n="a_3_text">
+                  Acompanha o pagamento e realiza a reserva no Pousada Gestor.
+                </p>
+              </li>
+              <li>
+                <span class="step-number" aria-hidden="true">04</span>
+                <h4 data-i18n="a_4">Confirma e envia</h4>
+                <p data-i18n="a_4_text">
+                  Gera o comprovante da reserva e envia ao cliente pelo
+                  WhatsApp.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </article>
+        <article
+          id="seudental"
+          class="case case-dental"
+          aria-labelledby="s-name"
+        >
+          <div class="case-heading">
+            <div>
+              <div class="project-identity">
+                <img
+                  class="project-logo"
+                  src="./imagens/projects/seudental/logo.webp"
+                  width="56"
+                  height="56"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="project-title-group">
+                  <h3 id="s-name">SeuDental</h3>
+                  <p data-i18n="s_category" class="case-category">
+                    Software odontológico / SaaS
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="case-description">
+              <p data-i18n="s_title" class="case-statement">
+                Do prontuário ao caixa, uma visão da clínica.
+              </p>
+              <p data-i18n="s_text">
+                Lidero o desenvolvimento de um sistema odontológico que conecta
+                agenda, prontuários, odontograma, financeiro e estoque. A IA
+                executa as mesmas ações disponíveis ao usuário: toda a operação
+                pode ser feita por comandos, com suporte a múltiplas clínicas.
+              </p>
+              <a
+                class="button project-detail-button"
+                href="./projetos/seudental.html"
+                ><span data-i18n="view_project">Ver o projeto</span></a
+              >
+              <a
+                class="button button-secondary"
+                href="https://seudental.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span data-i18n="visit_s">Explorar o SeuDental</span></a
+              >
+            </div>
+          </div>
+          <figure class="case-visual dental-media">
+            <div class="image-link">
+              <img
+                src="./imagens/projects/seudental/dashboard.webp"
+                srcset="
+                  ./imagens/projects/seudental/dashboard-640.webp  640w,
+                  ./imagens/projects/seudental/dashboard.webp     1904w
+                "
+                sizes="(max-width: 767px) 92vw, 45vw"
+                alt="Tela de recepção do SeuDental com agenda e dados demonstrativos"
+                data-i18n-alt="dental_alt"
+                width="1904"
+                height="939"
+                loading="lazy"
+              />
+            </div>
+          </figure>
+        </article>
+        <article
+          id="garagemweb"
+          class="case case-garage"
+          aria-labelledby="g-name"
+        >
+          <div class="case-heading">
+            <div>
+              <div class="project-identity">
+                <img
+                  class="project-logo"
+                  src="./imagens/projects/garagemweb/logo.webp"
+                  width="56"
+                  height="56"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="project-title-group">
+                  <h3 id="g-name">GaragemWeb</h3>
+                  <p data-i18n="g_category" class="case-category">
+                    Plataforma web / Negócios
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="case-description">
+              <p data-i18n="g_title" class="case-statement">
+                Seu negócio pronto para receber clientes online.
+              </p>
+              <p data-i18n="g_text">
+                Crio sites, catálogos e landing pages e desenvolvo a plataforma
+                que permite administrá-los. Entre os trabalhos estão Emanuel
+                Salgados, Óptica Visão Premium e Autocar.
+              </p>
+              <a
+                class="button project-detail-button"
+                href="./projetos/garagemweb.html"
+                ><span data-i18n="view_project">Ver o projeto</span></a
+              >
+              <a
+                class="button button-secondary"
+                href="https://garagemweb.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span data-i18n="visit_g">Conheça a GaragemWeb</span></a
+              >
+            </div>
+          </div>
+          <figure class="case-visual garage-media">
+            <div class="image-link">
+              <img
+                src="./imagens/projects/garagemweb/dashboard.webp"
+                srcset="
+                  ./imagens/projects/garagemweb/dashboard-640.webp  640w,
+                  ./imagens/projects/garagemweb/dashboard.webp     1600w
+                "
+                sizes="(max-width: 767px) 92vw, 45vw"
+                alt="Painel administrativo da GaragemWeb com visão geral dos sites e financeiro"
+                data-i18n-alt="garage_alt"
+                width="1600"
+                height="756"
+                loading="lazy"
+              />
+            </div>
+          </figure>
+        </article>
+      </section>
+      <section
+        id="sobre"
+        class="about-section section container"
+        aria-labelledby="about-title"
+      >
+        <div class="about-grid about-rebuilt">
+          <div class="about-overview">
+            <p data-i18n="nav_about" class="section-label">Sobre</p>
+            <h2 data-i18n="about_title" id="about-title">
+              Desenvolvimento de ponta a ponta.
+            </h2>
+            <div class="about-copy">
+              <p data-i18n="about_1">
+                Desenvolvo produtos web, sistemas de gestão e automações com IA.
+                Participo das decisões do produto e construo as integrações que
+                fazem cada parte funcionar em conjunto.
+              </p>
+              <p data-i18n="about_2">
+                Experiência em hotelaria, saúde e serviços, com sistemas locais
+                e produtos SaaS.
+              </p>
+            </div>
+          </div>
+          <ul class="capability-list">
+            <li>
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18" />
+              </svg>
+              <div>
+                <h3 data-i18n="capability_product">Produtos e sistemas</h3>
+                <p data-i18n="capability_product_text">
+                  Interfaces, regras de negócio e gestão em um mesmo produto.
+                </p>
+              </div>
+            </li>
+            <li>
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="2" y="3" width="7" height="7" rx="2" />
+                <rect x="15" y="14" width="7" height="7" rx="2" />
+                <path d="M9 6h6a3 3 0 0 1 3 3v5M6 10v5a3 3 0 0 0 3 3h6" />
+              </svg>
+              <div>
+                <h3 data-i18n="capability_integrations">Integrações</h3>
+                <p data-i18n="capability_integrations_text">
+                  Atendimento, reservas e pagamentos conectados.
+                </p>
+              </div>
+            </li>
+            <li>
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 8a8 8 0 0 1 14-1l2 3m0-6v6h-6M19 16a8 8 0 0 1-14 1l-2-3m0 6v-6h6"
+                />
+              </svg>
+              <div>
+                <h3 data-i18n="capability_ai">Automação com IA</h3>
+                <p data-i18n="capability_ai_text">
+                  Agentes que consultam dados e executam tarefas.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="language-strip">
+            <div class="language-summary">
+              <span class="language-code" aria-hidden="true">EN</span>
+              <div>
+                <h3 data-i18n="english_level">Inglês C2</h3>
+                <p data-i18n="english_scores">
+                  EF SET: 71/100, C2 Proficient. Leitura C2; compreensão oral
+                  B2.
+                </p>
+              </div>
+              <a
+                class="text-link"
+                href="https://cert.efset.org/8QAYNV"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span data-i18n="validate">Validar no EF SET</span></a
+              >
+            </div>
+            <div class="language-summary">
+              <span class="language-code" aria-hidden="true">ES</span>
+              <div>
+                <h3 data-i18n="spanish_level">Espanhol A2</h3>
+                <p data-i18n="spanish_learning">
+                  Nível A2, em processo de aprendizado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="contato"
+        class="contact-section section container contact-rebuilt"
+        aria-labelledby="contact-title"
+      >
+        <div class="contact-panel">
+          <div class="contact-heading">
+            <p data-i18n="nav_contact" class="section-label">Contato</p>
+            <h2 data-i18n="contact_title" id="contact-title">
+              Vamos trabalhar juntos.
+            </h2>
+            <p data-i18n="contact_text">
+              Precisa desenvolver um sistema, integrar ferramentas ou reforçar
+              sua equipe? Conte o contexto do projeto ou da oportunidade.
+            </p>
+          </div>
+          <div class="contact-options">
+            <button
+              class="contact-option contact-open"
+              type="button"
+              aria-haspopup="dialog"
+              aria-controls="contact-dialog"
+            >
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 7 9 6 9-6" /></svg
+              ><span class="contact-option-copy"
+                ><strong data-i18n="contact_action">Entrar em contato</strong
+                ><span data-i18n="contact_note" class="contact-address"
+                  >Projetos, parcerias e oportunidades</span
+                ></span
+              ><span class="contact-arrow" aria-hidden="true">↗</span></button
+            ><a
+              class="contact-option"
+              href="https://github.com/otavio-lops"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18" />
+              </svg>
+              <div>
+                <strong>GitHub</strong
+                ><span data-i18n="github" class="contact-address"
+                  >Código e projetos no GitHub</span
+                >
+              </div>
+              <span class="contact-arrow" aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container site-footer">
+      <p>© <span id="current-year">2026</span> Otávio Lopes</p>
+      <p data-i18n="footer">Desenvolvimento de produtos e sistemas</p>
+      <a href="#inicio" class="text-link"
+        ><span data-i18n="back">Voltar ao início</span></a
+      >
+    </footer>
+    <dialog
+      id="contact-dialog"
+      class="contact-dialog"
+      aria-labelledby="contact-dialog-title"
+    >
+      <div class="dialog-heading">
+        <h2 id="contact-dialog-title" data-i18n="contact_action">
+          Entrar em contato
+        </h2>
+        <button
+          class="dialog-close contact-dialog-close"
+          type="button"
+          aria-label="Fechar"
+          data-i18n-aria="close"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            aria-hidden="true"
+          >
+            <path d="m6 6 12 12M18 6 6 18" />
+          </svg>
+        </button>
+      </div>
+      <div class="contact-dialog-grid">
+        <section
+          class="contact-form-card"
+          aria-labelledby="contact-intro-title"
+        >
+          <h3 id="contact-intro-title" data-i18n="contact_intro">
+            Qual é o próximo passo do seu projeto?
+          </h3>
+          <p data-i18n="contact_intro_text">
+            Conte o que você quer construir ou melhorar e em que ponto está
+            hoje.
+          </p>
+          <form
+            id="contact-form"
+            class="contact-form"
+            action="https://formspree.io/f/xaeqbloy"
+            method="POST"
+            aria-describedby="contact-status"
+          >
+            <div class="contact-fields">
+              <div class="form-field">
+                <label for="contact-name" data-i18n="form_name">Nome</label
+                ><input
+                  id="contact-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                  maxlength="120"
+                />
+              </div>
+              <div class="form-field">
+                <label for="contact-email" data-i18n="form_email"
+                  >Seu e-mail</label
+                ><input
+                  id="contact-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  maxlength="254"
+                />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="contact-message" data-i18n="form_message"
+                >Sua mensagem</label
+              ><textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                required
+                maxlength="10000"
+              ></textarea>
+            </div>
+            <input
+              class="form-honeypot"
+              type="text"
+              name="_gotcha"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            />
+            <button class="button form-submit" type="submit">
+              <span data-i18n="form_send">Enviar mensagem</span>
+            </button>
+            <p
+              id="contact-status"
+              class="contact-status"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+            ></p>
+          </form>
+        </section>
+        <aside
+          class="contact-response-card"
+          aria-labelledby="contact-response-title"
+        >
+          <span data-i18n="contact_response_time" class="response-time"
+            >Até 8h</span
+          >
+          <h3 data-i18n="contact_response_title" id="contact-response-title">
+            Para o primeiro retorno.
+          </h3>
+          <p data-i18n="contact_response_text">
+            Leio sua mensagem e retorno por e-mail para entender o que você
+            precisa.
+          </p>
+          <div class="contact-direct">
+            <svg
+              class="icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path
+                d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H4l-2 2V11.5A8.5 8.5 0 0 1 10.5 3H13a8 8 0 0 1 8 8.5Z"
+              />
+              <path d="M7 10h10M7 14h6" />
+            </svg>
+            <div>
+              <h4 data-i18n="contact_direct_title">
+                Depois, a conversa segue de perto.
+              </h4>
+              <p data-i18n="contact_direct_text">
+                Combinamos um canal direto para trocar ideias e resolver os
+                próximos passos com agilidade.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </dialog>
+    <dialog id="certificate-dialog" aria-labelledby="certificate-title">
+      <div class="dialog-heading">
+        <h2 data-i18n="certificate_title" id="certificate-title">
+          Inglês / EF SET
+        </h2>
+        <button
+          class="dialog-close"
+          type="button"
+          aria-label="Fechar"
+          data-i18n-aria="close"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            aria-hidden="true"
+          >
+            <path d="m6 6 12 12M18 6 6 18" />
+          </svg>
+        </button>
+      </div>
+      <p data-i18n="certificate_text">
+        Resultado geral: 71/100, C2 Proficient. Leitura: 84, C2. Compreensão
+        oral: 58, B2.
+      </p>
+      <img
+        src="./imagens/certificates/ingles-efset.webp"
+        width="1655"
+        height="2341"
+        alt="Certificado EF SET de Otávio Lopes com resultado geral C2"
+        data-i18n-alt="certificate_alt"
+        loading="lazy"
+      />
+      <div class="dialog-actions">
+        <a
+          class="button"
+          href="./certificados/certificado-ingles.pdf"
+          download="otavio-lopes-ef-set.pdf"
+          data-i18n="download"
+          >Baixar PDF</a
+        ><a
+          class="text-link"
+          href="https://cert.efset.org/8QAYNV"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span data-i18n="validate">Validar certificado no emissor.</span
+          ><span aria-hidden="true">↗</span></a
+        >
+      </div>
+    </dialog>
+    <script src="./vendor/jquery.min.js" defer></script>
+    <script src="./vendor/select2.min.js" defer></script>
+    <script src="./script.js" defer=""></script>
+  </body>
+</html>

@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SeuDental: gestão odontológica com IA | Otávio Lopes</title>
+    <meta
+      name="description"
+      content="Sistema odontológico com agenda, prontuário, odontograma, financeiro e estoque. A IA executa todas as ações do usuário: opere tudo por comandos."
+    />
+    <meta name="theme-color" content="#f3f4f5" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Otávio Lopes" />
+    <meta
+      property="og:title"
+      content="SeuDental: gestão odontológica com IA | Otávio Lopes"
+    />
+    <meta
+      property="og:description"
+      content="Sistema odontológico com agenda, prontuário, odontograma, financeiro e estoque. A IA executa todas as ações do usuário: opere tudo por comandos."
+    />
+    <meta
+      property="og:url"
+      content="https://otaviolopes.com.br/projetos/seudental.html"
+    />
+    <meta property="og:locale" content="pt_BR" />
+    <meta
+      property="og:image"
+      content="https://otaviolopes.com.br/imagens/projects/seudental/dashboard.webp"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="SeuDental: gestão odontológica com IA | Otávio Lopes"
+    />
+    <meta
+      name="twitter:description"
+      content="Sistema odontológico com agenda, prontuário, odontograma, financeiro e estoque. A IA executa todas as ações do usuário: opere tudo por comandos."
+    />
+    <meta
+      name="twitter:image"
+      content="https://otaviolopes.com.br/imagens/projects/seudental/dashboard.webp"
+    />
+    <link
+      rel="canonical"
+      href="https://otaviolopes.com.br/projetos/seudental.html"
+    />
+    <link rel="icon" type="image/webp" href="../imagens/brand/favicon.webp" />
+    <link
+      rel="preload"
+      href="../fonts/manrope-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <script>
+      (() => {
+        let theme;
+        try {
+          theme = localStorage.getItem("otavio-theme-choice");
+        } catch (_) {}
+        document.documentElement.dataset.theme = ["light", "dark"].includes(
+          theme,
+        )
+          ? theme
+          : matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://otaviolopes.com.br/projetos/seudental.html#webpage",
+            "url": "https://otaviolopes.com.br/projetos/seudental.html",
+            "name": "SeuDental: gestão odontológica com IA | Otávio Lopes",
+            "description": "Sistema odontológico com agenda, prontuário, odontograma, financeiro e estoque. A IA executa todas as ações do usuário: opere tudo por comandos.",
+            "inLanguage": "pt-BR",
+            "isPartOf": {
+              "@id": "https://otaviolopes.com.br/#website"
+            },
+            "author": {
+              "@id": "https://otaviolopes.com.br/#person"
+            },
+            "mainEntity": {
+              "@id": "https://otaviolopes.com.br/projetos/seudental.html#software"
+            },
+            "breadcrumb": {
+              "@id": "https://otaviolopes.com.br/projetos/seudental.html#breadcrumb"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://otaviolopes.com.br/projetos/seudental.html#primary-image"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://otaviolopes.com.br/projetos/seudental.html#software",
+            "name": "SeuDental",
+            "url": "https://otaviolopes.com.br/projetos/seudental.html",
+            "description": "Sistema odontológico com agenda, prontuário, odontograma, financeiro e estoque. A IA executa todas as ações do usuário: opere tudo por comandos.",
+            "applicationCategory": "HealthApplication",
+            "image": "https://otaviolopes.com.br/imagens/projects/seudental/dashboard.webp",
+            "inLanguage": "pt-BR",
+            "creator": {
+              "@id": "https://otaviolopes.com.br/#person"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://otaviolopes.com.br/projetos/seudental.html#webpage"
+            },
+            "featureList": [
+              "Agenda, pacientes e equipe conectados para acompanhar consultas, confirmações e retornos. A recepção tem uma visão do dia e o profissional encontra o histórico do paciente para dar continuidade ao cuidado.",
+              "Prontuário e odontograma reúnem o contexto clínico. O diagnóstico e o planejamento ganham uma representação visual que apoia a conversa sobre o tratamento e o acompanhamento de cada paciente.",
+              "Entradas, saídas, estoque e compromissos financeiros ficam próximos da rotina clínica. Desenvolvo o produto para conectar o trabalho da recepção, dos profissionais e de quem administra a clínica.",
+              "A IA tem acesso às mesmas ações que o usuário pode executar na interface. Quem preferir pode operar o SeuDental inteiramente por comandos: da agenda aos registros clínicos e à gestão. Além de executar tarefas, ela reúne escuta durante o atendimento, recaps e resumos do odontograma para revisão do profissional."
+            ],
+            "sameAs": "https://seudental.com.br/"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://otaviolopes.com.br/projetos/seudental.html#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://otaviolopes.com.br/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "SeuDental",
+                "item": "https://otaviolopes.com.br/projetos/seudental.html"
+              }
+            ]
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://otaviolopes.com.br/projetos/seudental.html#primary-image",
+            "contentUrl": "https://otaviolopes.com.br/imagens/projects/seudental/dashboard.webp",
+            "caption": "Tela de recepção do SeuDental com agenda e dados demonstrativos",
+            "width": 1904,
+            "height": 939
+          },
+          {
+            "@type": "Person",
+            "@id": "https://otaviolopes.com.br/#person",
+            "name": "Otávio Lopes",
+            "url": "https://otaviolopes.com.br/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://otaviolopes.com.br/#website",
+            "name": "Otávio Lopes",
+            "url": "https://otaviolopes.com.br/"
+          }
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="../vendor/select2.min.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <meta name="author" content="Otávio Lopes" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta
+      property="og:image:alt"
+      content="Tela de recepção do SeuDental com agenda e dados demonstrativos"
+      data-i18n-meta="dental_alt"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Tela de recepção do SeuDental com agenda e dados demonstrativos"
+      data-i18n-meta="dental_alt"
+    />
+    <meta property="og:image:width" content="1904" />
+    <meta property="og:image:height" content="939" />
+  </head>
+  <body data-project="seudental">
+    <a class="skip-link" href="#conteudo" data-i18n="skip"
+      >Ir para o conteúdo</a
+    >
+    <header class="site-header container">
+      <a class="brand" href="../index.html" aria-label="otávio.lopes"
+        >otávio<span class="brand-dot">.</span>lopes</a
+      >
+      <nav
+        id="navigation"
+        class="main-nav"
+        aria-label="Navegação principal"
+        data-i18n-aria="navigation"
+      >
+        <a href="../index.html#inicio" data-i18n="nav_home">Início</a
+        ><a href="../index.html#projetos" data-i18n="nav_projects">Projetos</a
+        ><a href="../index.html#sobre" data-i18n="nav_about">Sobre</a
+        ><button
+          class="button header-contact contact-open"
+          type="button"
+          data-i18n="contact_action"
+          aria-haspopup="dialog"
+          aria-controls="contact-dialog"
+        >
+          Entrar em contato
+        </button>
+      </nav>
+      <div class="header-controls">
+        <label class="sr-only" for="language" data-i18n="language"
+          >Idioma</label
+        >
+        <div class="language-picker">
+          <select id="language">
+            <option value="auto" data-i18n="automatic">Automático</option>
+            <option value="pt" lang="pt-BR">PT</option>
+            <option value="en" lang="en-US">EN</option>
+            <option value="es" lang="es-ES">ES</option>
+          </select>
+        </div>
+        <button
+          type="button"
+          class="theme-toggle"
+          aria-label="Ativar tema escuro"
+          aria-pressed="false"
+        >
+          <span class="theme-symbol" aria-hidden="true"></span>
+        </button>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="Menu"
+          data-i18n-aria="menu"
+          aria-controls="navigation"
+          aria-expanded="false"
+        >
+          <span data-i18n="menu">Menu</span
+          ><span class="menu-symbol" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="conteudo" class="project-page container">
+      <a class="text-link project-back" href="../index.html#projetos"
+        ><span aria-hidden="true">←</span
+        ><span data-i18n="back_projects">Voltar aos projetos</span></a
+      >
+      <section class="project-intro" aria-labelledby="project-name">
+        <div class="project-identity">
+          <img
+            class="project-logo"
+            src="../imagens/projects/seudental/logo.webp"
+            width="56"
+            height="56"
+            alt=""
+          />
+          <div class="project-title-group">
+            <h1 id="project-name">SeuDental</h1>
+            <p class="case-category" data-i18n="s_category">
+              Software odontológico / SaaS
+            </p>
+          </div>
+        </div>
+        <h2 class="project-headline" data-i18n="s_title">
+          Do prontuário ao caixa, uma visão da clínica.
+        </h2>
+        <div class="project-intro-bottom">
+          <p class="project-lead" data-i18n="s_text">
+            Lidero o desenvolvimento de um sistema odontológico que conecta
+            agenda, prontuários, odontograma, financeiro e estoque. A IA executa
+            as mesmas ações disponíveis ao usuário: toda a operação pode ser
+            feita por comandos, com suporte a múltiplas clínicas.
+          </p>
+          <a
+            class="button button-secondary"
+            href="https://seudental.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span data-i18n="visit_s">Explorar o SeuDental</span></a
+          >
+        </div>
+      </section>
+      <div class="project-showcase">
+        <figure class="case-visual dental-media">
+          <div class="image-link">
+            <img
+              src="../imagens/projects/seudental/dashboard.webp"
+              srcset="
+                ../imagens/projects/seudental/dashboard-640.webp  640w,
+                ../imagens/projects/seudental/dashboard.webp     1904w
+              "
+              sizes="(max-width: 767px) 92vw, 1100px"
+              alt="Tela de recepção do SeuDental com agenda e dados demonstrativos"
+              data-i18n-alt="dental_alt"
+              width="1904"
+              height="939"
+              loading="eager"
+            />
+          </div>
+        </figure>
+      </div>
+      <section class="project-scope" aria-labelledby="scope-title">
+        <h2 id="scope-title" data-i18n="project_scope">
+          O que o produto resolve
+        </h2>
+        <div class="project-feature-list">
+          <article class="project-feature">
+            <span class="project-feature-number" aria-hidden="true">01</span>
+            <div>
+              <h3 data-i18n="detail_feature_1">
+                A consulta começa antes da cadeira.
+              </h3>
+              <p data-i18n="detail_text_1">
+                Agenda, pacientes e equipe conectados para acompanhar consultas,
+                confirmações e retornos. A recepção tem uma visão do dia e o
+                profissional encontra o histórico do paciente para dar
+                continuidade ao cuidado.
+              </p>
+            </div>
+          </article>
+          <article class="project-feature">
+            <span class="project-feature-number" aria-hidden="true">02</span>
+            <div>
+              <h3 data-i18n="detail_feature_2">
+                O registro clínico ajuda a explicar o tratamento.
+              </h3>
+              <p data-i18n="detail_text_2">
+                Prontuário e odontograma reúnem o contexto clínico. O
+                diagnóstico e o planejamento ganham uma representação visual que
+                apoia a conversa sobre o tratamento e o acompanhamento de cada
+                paciente.
+              </p>
+            </div>
+          </article>
+          <article class="project-feature">
+            <span class="project-feature-number" aria-hidden="true">03</span>
+            <div>
+              <h3 data-i18n="detail_feature_3">
+                Atendimento e gestão compartilham a mesma visão.
+              </h3>
+              <p data-i18n="detail_text_3">
+                Entradas, saídas, estoque e compromissos financeiros ficam
+                próximos da rotina clínica. Desenvolvo o produto para conectar o
+                trabalho da recepção, dos profissionais e de quem administra a
+                clínica.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="project-connection" aria-labelledby="connection-title">
+        <div>
+          <h2 id="connection-title" data-i18n="detail_connection_title">
+            Todo o sistema, também por comandos para a IA.
+          </h2>
+          <p data-i18n="detail_connection_text">
+            A IA tem acesso às mesmas ações que o usuário pode executar na
+            interface. Quem preferir pode operar o SeuDental inteiramente por
+            comandos: da agenda aos registros clínicos e à gestão. Além de
+            executar tarefas, ela reúne escuta durante o atendimento, recaps e
+            resumos do odontograma para revisão do profissional.
+          </p>
+          <a
+            class="text-link"
+            href="https://seudental.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span data-i18n="detail_related">Explorar o SeuDental</span></a
+          >
+        </div>
+      </section>
+      <section class="project-contact">
+        <h2 data-i18n="project_next">Tem um projeto parecido em mente?</h2>
+        <button
+          class="button contact-open"
+          type="button"
+          aria-haspopup="dialog"
+          aria-controls="contact-dialog"
+          data-i18n="contact_action"
+        >
+          Entrar em contato
+        </button>
+      </section>
+    </main>
+    <footer class="container site-footer">
+      <p>© <span id="current-year">2026</span> Otávio Lopes</p>
+      <p data-i18n="footer">Desenvolvimento de produtos e sistemas</p>
+      <a href="../index.html" class="text-link"
+        ><span data-i18n="back">Voltar ao início</span></a
+      >
+    </footer>
+    <dialog
+      id="contact-dialog"
+      class="contact-dialog"
+      aria-labelledby="contact-dialog-title"
+    >
+      <div class="dialog-heading">
+        <h2 id="contact-dialog-title" data-i18n="contact_action">
+          Entrar em contato
+        </h2>
+        <button
+          class="dialog-close contact-dialog-close"
+          type="button"
+          aria-label="Fechar"
+          data-i18n-aria="close"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            aria-hidden="true"
+          >
+            <path d="m6 6 12 12M18 6 6 18" />
+          </svg>
+        </button>
+      </div>
+      <div class="contact-dialog-grid">
+        <section
+          class="contact-form-card"
+          aria-labelledby="contact-intro-title"
+        >
+          <h3 id="contact-intro-title" data-i18n="contact_intro">
+            Qual é o próximo passo do seu projeto?
+          </h3>
+          <p data-i18n="contact_intro_text">
+            Conte o que você quer construir ou melhorar e em que ponto está
+            hoje.
+          </p>
+          <form
+            id="contact-form"
+            class="contact-form"
+            action="https://formspree.io/f/xaeqbloy"
+            method="POST"
+            aria-describedby="contact-status"
+          >
+            <div class="contact-fields">
+              <div class="form-field">
+                <label for="contact-name" data-i18n="form_name">Nome</label
+                ><input
+                  id="contact-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                  maxlength="120"
+                />
+              </div>
+              <div class="form-field">
+                <label for="contact-email" data-i18n="form_email"
+                  >Seu e-mail</label
+                ><input
+                  id="contact-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  maxlength="254"
+                />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="contact-message" data-i18n="form_message"
+                >Sua mensagem</label
+              ><textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                required
+                maxlength="10000"
+              ></textarea>
+            </div>
+            <input
+              class="form-honeypot"
+              type="text"
+              name="_gotcha"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            />
+            <button class="button form-submit" type="submit">
+              <span data-i18n="form_send">Enviar mensagem</span>
+            </button>
+            <p
+              id="contact-status"
+              class="contact-status"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+            ></p>
+          </form>
+        </section>
+        <aside
+          class="contact-response-card"
+          aria-labelledby="contact-response-title"
+        >
+          <span class="response-time" data-i18n="contact_response_time"
+            >Até 8h</span
+          >
+          <h3 id="contact-response-title" data-i18n="contact_response_title">
+            Para o primeiro retorno.
+          </h3>
+          <p data-i18n="contact_response_text">
+            Leio sua mensagem e retorno por e-mail para entender o que você
+            precisa.
+          </p>
+          <div class="contact-direct">
+            <svg
+              class="icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <path
+                d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H4l-2 2V11.5A8.5 8.5 0 0 1 10.5 3H13a8 8 0 0 1 8 8.5Z"
+              />
+              <path d="M7 10h10M7 14h6" />
+            </svg>
+            <div>
+              <h4 data-i18n="contact_direct_title">
+                Depois, a conversa segue de perto.
+              </h4>
+              <p data-i18n="contact_direct_text">
+                Combinamos um canal direto para trocar ideias e resolver os
+                próximos passos com agilidade.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </dialog>
+    <script src="../vendor/jquery.min.js" defer></script>
+    <script src="../vendor/select2.min.js" defer></script>
+    <script src="./content.js" defer></script>
+    <script src="../script.js" defer></script>
+  </body>
+</html>
