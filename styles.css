@@ -1815,8 +1815,28 @@ dialog .actions {
 .contact-status:empty {
   display: none;
 }
+.contact-form[data-state="success"] > :not(.contact-status) {
+  display: none;
+}
 .contact-form[data-state="success"] .contact-status {
-  color: var(--accent);
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  padding: 32px 16px;
+  text-align: center;
+  font-size: 16px;
+}
+.contact-form[data-state="success"] .contact-status::before {
+  content: "✓";
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #22c55e;
+  border-radius: 50%;
+  color: #22c55e;
+  font-size: 36px;
+  line-height: 1;
 }
 .contact-form[data-state="error"] .contact-status {
   color: var(--ink);

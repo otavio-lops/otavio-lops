@@ -375,9 +375,9 @@ const messages = {
   form_send: ["Enviar mensagem", "Send message", "Enviar mensaje"],
   form_sending: ["Enviando…", "Sending…", "Enviando…"],
   form_success: [
-    "Mensagem enviada. Obrigado pelo contato!",
-    "Message sent. Thank you for getting in touch!",
-    "Mensaje enviado. Gracias por contactarme.",
+    "Contato recebido com sucesso! Responderei ao seu e-mail em até 8 horas.",
+    "Your message has been received! I'll reply to your email within 8 hours.",
+    "¡He recibido tu mensaje! Responderé a tu correo en un plazo de 8 horas.",
   ],
   form_error: [
     "Não foi possível enviar. Sua mensagem foi mantida; tente novamente.",
