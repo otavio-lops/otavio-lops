@@ -5,31 +5,28 @@
 ## Identidade e contato
 
 - Site: https://otaviolopes.com.br/
+- Todos os projetos: https://otaviolopes.com.br/todos-projetos.html.
 - GitHub: https://github.com/otavio-lops
 - Contato: https://otaviolopes.com.br/#contato (botão que abre o formulário em popup). Primeiro retorno em até 8h; depois, combina-se um canal direto para continuar a conversa.
 - Inglês: resultado geral C2 Proficient no EF SET (71/100; leitura 84/C2 e compreensão oral 58/B2). Certificado: https://cert.efset.org/8QAYNV.
 - Espanhol: A2, em aprendizado.
-- Portfólio em português (pt-BR), inglês (en-US) e espanhol (es-ES), na mesma URL.
+- Portfólio em português (pt-BR e pt-PT), inglês (en-US) e espanhol (es-ES), na mesma URL.
 
-## Pousada Gestor
+## AcomodaHub
 
-Sistema on-premises desenvolvido por Otávio e utilizado na Pousada do Trabalhador, em Canoas, RS. Centraliza reservas, estadias, check-in individual e em grupo, transferências de quartos, faturamento para empresas, notas fiscais, recibos, caixa, bar, limpeza, manutenção e acessos por função. O aplicativo Android leva a operação ao celular, com recursos nativos de câmera e leitura de documentos. Fornece disponibilidade e recebe reservas do AtendeFlow.
+Plataforma de gestão para hospedagens, desenvolvida por Otávio. Reúne reservas, estadias, quartos, hóspedes, check-in e check-out, transferências de quartos, faturamento para empresas, recibos, cobranças e acompanhamento financeiro. O aplicativo Android permite à equipe consultar reservas e quartos e executar tarefas da operação pelo celular.
 
-Página do projeto: https://otaviolopes.com.br/projetos/pousada-gestor.html
-
-Operação real: https://pousadadotrabalhador.com/
+Página do projeto: https://otaviolopes.com.br/projetos/acomodahub.html
 
 ## AtendeFlow
 
-Sistema de atendimento 100% autônomo com IA desenvolvido por Otávio. Atua por telefone e WhatsApp, 24 horas por dia, 7 dias por semana, atendendo vários clientes ao mesmo tempo. A implementação apresentada está em uso na Pousada do Trabalhador.
+Sistema de atendimento autônomo com IA desenvolvido por Otávio. Atua por telefone e WhatsApp, 24 horas por dia, 7 dias por semana, atendendo vários clientes ao mesmo tempo.
 
 Página do projeto: https://otaviolopes.com.br/projetos/atendeflow.html
 
-Fluxo implementado: por ligação, apresenta acomodações, responde dúvidas e oferece continuar pelo WhatsApp. No WhatsApp, coleta dados, consulta disponibilidade no Pousada Gestor, apresenta o resumo, cria cobrança no Asaas após confirmação, verifica o pagamento, realiza a reserva no Pousada Gestor e envia o comprovante.
+Fluxo implementado: por ligação, apresenta acomodações, responde dúvidas e oferece continuar pelo WhatsApp. No WhatsApp, coleta dados, consulta disponibilidade no sistema de gestão integrado, apresenta o resumo, cria cobrança no Asaas após confirmação, verifica o pagamento, registra a reserva no sistema e envia o comprovante.
 
-AtendeFlow executa o atendimento e a operação. Pousada Gestor é o sistema operacional integrado. Pousada do Trabalhador é a operação real onde a integração é utilizada.
-
-WhatsApp público de atendimento: https://wa.me/555123917293.
+AtendeFlow automatiza o atendimento e pode se integrar aos sistemas de gestão e cobrança usados pela operação.
 
 ## SeuDental
 
@@ -51,15 +48,33 @@ Página do projeto: https://otaviolopes.com.br/projetos/garagemweb.html
 
 Site: https://garagemweb.com/
 
+## ETA Fácil
+
+Consultoria independente para compreender requisitos de viagem, organizar informações e preparar solicitações. A ETA Fácil não emite vistos ou autorizações, não representa governos e não decide solicitações; a decisão final pertence à autoridade migratória responsável.
+
+Página do projeto: https://otaviolopes.com.br/projetos/etafacil.html
+
+Site: https://etafacil.cloud/
+
+## SmartCell
+
+Protótipo de loja virtual de iPhones com catálogo por geração, páginas de modelos e uma base para pedidos. O projeto segue em desenvolvimento; não apresentar o fluxo de compra como concluído.
+
+Página do projeto: https://otaviolopes.com.br/projetos/smartcell.html
+
 ## Evidências e escopo
+
+Página com a grade de todos os projetos: https://otaviolopes.com.br/todos-projetos.html
 
 Os projetos possuem páginas próprias no portfólio:
 
-- https://otaviolopes.com.br/projetos/pousada-gestor.html
+- https://otaviolopes.com.br/projetos/acomodahub.html
 - https://otaviolopes.com.br/projetos/atendeflow.html
 - https://otaviolopes.com.br/projetos/seudental.html
 - https://otaviolopes.com.br/projetos/garagemweb.html
+- https://otaviolopes.com.br/projetos/etafacil.html
+- https://otaviolopes.com.br/projetos/smartcell.html
 
-As imagens incluem retrato, logos, certificado, painel e aplicativo do Pousada Gestor e telas dos sites oficiais do SeuDental e da GaragemWeb. As telas do SeuDental contêm dados demonstrativos. Não são informados números de clientes, usuários ou resultados comerciais. Pousada Gestor é o sistema de gestão; AtendeFlow é o atendimento integrado; Pousada do Trabalhador é a operação hoteleira em que ambos são utilizados.
+As imagens incluem retrato, logos, certificado e telas do AcomodaHub, do SeuDental, da GaragemWeb, da ETA Fácil e da SmartCell. As telas do AcomodaHub e do SeuDental contêm dados demonstrativos. SmartCell está em desenvolvimento. Não são informados números de clientes, usuários ou resultados comerciais.
 
 

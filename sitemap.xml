@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://otaviolopes.com.br/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <image:image><image:loc>https://otaviolopes.com.br/imagens/profile/otavio-lopes.webp</image:loc><image:title>Otávio Lopes, desenvolvedor de software</image:title></image:image>
   </url>
   <url>
-    <loc>https://otaviolopes.com.br/projetos/pousada-gestor.html</loc>
-    <lastmod>2026-10-11</lastmod>
-    <image:image><image:loc>https://otaviolopes.com.br/imagens/projects/pousada-gestor/dashboard.webp</image:loc><image:title>Pousada Gestor</image:title></image:image>
+    <loc>https://otaviolopes.com.br/todos-projetos.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image><image:loc>https://otaviolopes.com.br/imagens/projects/acomodahub/macbook.png</image:loc><image:title>Todos os projetos de Otávio Lopes</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://otaviolopes.com.br/projetos/acomodahub.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image><image:loc>https://otaviolopes.com.br/imagens/projects/acomodahub/macbook.png</image:loc><image:title>AcomodaHub</image:title></image:image>
   </url>
   <url>
     <loc>https://otaviolopes.com.br/projetos/atendeflow.html</loc>
@@ -17,12 +22,22 @@
   </url>
   <url>
     <loc>https://otaviolopes.com.br/projetos/seudental.html</loc>
-    <lastmod>2026-10-11</lastmod>
-    <image:image><image:loc>https://otaviolopes.com.br/imagens/projects/seudental/dashboard.webp</image:loc><image:title>SeuDental</image:title></image:image>
+    <lastmod>2026-11-20</lastmod>
+    <image:image><image:loc>https://otaviolopes.com.br/imagens/projects/seudental/macbook.png</image:loc><image:title>SeuDental</image:title></image:image>
   </url>
   <url>
     <loc>https://otaviolopes.com.br/projetos/garagemweb.html</loc>
-    <lastmod>2026-10-11</lastmod>
-    <image:image><image:loc>https://otaviolopes.com.br/imagens/projects/garagemweb/dashboard.webp</image:loc><image:title>GaragemWeb</image:title></image:image>
+    <lastmod>2026-11-20</lastmod>
+    <image:image><image:loc>https://otaviolopes.com.br/imagens/projects/garagemweb/macbook.png</image:loc><image:title>GaragemWeb</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://otaviolopes.com.br/projetos/etafacil.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image><image:loc>https://otaviolopes.com.br/imagens/projects/etafacil/macbook.png</image:loc><image:title>ETA Fácil</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://otaviolopes.com.br/projetos/smartcell.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image><image:loc>https://otaviolopes.com.br/imagens/projects/smartcell/macbook.png</image:loc><image:title>SmartCell</image:title></image:image>
   </url>
 </urlset>

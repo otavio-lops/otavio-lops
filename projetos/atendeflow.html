@@ -178,7 +178,7 @@
         data-i18n-aria="navigation"
       >
         <a href="../index.html#inicio" data-i18n="nav_home">Início</a
-        ><a href="../index.html#projetos" data-i18n="nav_projects">Projetos</a
+        ><a href="../todos-projetos.html#projetos" data-i18n="nav_projects">Projetos</a
         ><a href="../index.html#sobre" data-i18n="nav_about">Sobre</a
         ><button
           class="button header-contact contact-open"
@@ -196,10 +196,11 @@
         >
         <div class="language-picker">
           <select id="language">
-            <option value="auto" data-i18n="automatic">Automático</option>
-            <option value="pt" lang="pt-BR">PT</option>
-            <option value="en" lang="en-US">EN</option>
-            <option value="es" lang="es-ES">ES</option>
+            <option value="auto" data-i18n="detect_language">Detectar idioma</option>
+            <option value="pt-BR" lang="pt-BR">Português (Brasil)</option>
+            <option value="pt-PT" lang="pt-PT">Português (Portugal)</option>
+            <option value="en-US" lang="en-US">English (USA)</option>
+            <option value="es" lang="es-ES">Español (España)</option>
           </select>
         </div>
         <button
@@ -223,169 +224,43 @@
         </button>
       </div>
     </header>
-    <main id="conteudo" class="project-page container">
-      <a class="text-link project-back" href="../index.html#projetos"
-        ><span aria-hidden="true">←</span
-        ><span data-i18n="back_projects">Voltar aos projetos</span></a
-      >
-      <section class="project-intro" aria-labelledby="project-name">
-        <div class="project-identity">
-          <img
-            class="project-logo"
-            src="../imagens/projects/atendeflow/logo.webp"
-            width="56"
-            height="56"
-            alt=""
-          />
-          <div class="project-title-group">
-            <h1 id="project-name">AtendeFlow</h1>
-            <p class="case-category" data-i18n="a_category">
-              Atendimento e automação com IA
-            </p>
-          </div>
-        </div>
-        <h2 class="project-headline" data-i18n="a_title">
-          Atendimento que transforma interesse em reserva.
-        </h2>
-        <div class="project-intro-bottom">
-          <p class="project-lead" data-i18n="a_text">
-            Uma experiência de atendimento automatizado para responder dúvidas,
-            orientar o cliente e conduzir reservas com disponibilidade para
-            atender em escala.
-          </p>
-          <a
-            class="button button-secondary"
-            href="https://wa.me/555123917293"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><span data-i18n="a_call"
-              >Experimentar o atendimento</span
-            ></a
-          >
-        </div>
-      </section>
-      <div class="project-showcase">
-        <div class="flow-board">
-          <div class="flow-board-heading">
-            <img
-              src="../imagens/projects/atendeflow/logo.webp"
-              width="44"
-              height="44"
-              alt=""
-              loading="lazy"
-            /><span
-              >AtendeFlow <span aria-hidden="true">/</span> Jornada automatizada</span
-            >
-          </div>
-          <ol class="flow-steps">
-            <li>
-              <span class="step-number" aria-hidden="true">01</span>
-              <h4 data-i18n="a_1">Conversa com o cliente</h4>
-              <p data-i18n="a_1_text">
-                Conversa com o cliente, esclarece dúvidas e coleta as informações
-                necessárias.
-              </p>
-            </li>
-            <li>
-              <span class="step-number" aria-hidden="true">02</span>
-              <h4 data-i18n="a_2">Verifica as opções</h4>
-              <p data-i18n="a_2_text">
-                Consulta as condições do negócio e apresenta alternativas
-                adequadas ao pedido.
-              </p>
-            </li>
-            <li>
-              <span class="step-number" aria-hidden="true">03</span>
-              <h4 data-i18n="a_3">Orienta a escolha</h4>
-              <p data-i18n="a_3_text">
-                Orienta o cliente na escolha e conduz o fluxo até a confirmação.
-              </p>
-            </li>
-            <li>
-              <span class="step-number" aria-hidden="true">04</span>
-              <h4 data-i18n="a_4">Confirma o próximo passo</h4>
-              <p data-i18n="a_4_text">
-                Registra a solicitação e envia as informações para o próximo passo
-                acontecer sem ruído.
-              </p>
-            </li>
-          </ol>
-        </div>
-      </div>
-      <section class="project-scope" aria-labelledby="scope-title">
-        <h2 id="scope-title" data-i18n="project_scope">
-          O que o produto resolve
-        </h2>
-        <div class="project-feature-list">
-          <article class="project-feature">
-            <span class="project-feature-number" aria-hidden="true">01</span>
-            <div>
-              <h3 data-i18n="detail_feature_1">
-                Atendimento disponível quando o cliente precisa.
-              </h3>
-              <p data-i18n="detail_text_1">
-                Responde dúvidas e conduz a conversa por diferentes canais,
-                mantendo o contexto até o próximo passo.
-              </p>
-            </div>
-          </article>
-          <article class="project-feature">
-            <span class="project-feature-number" aria-hidden="true">02</span>
-            <div>
-              <h3 data-i18n="detail_feature_2">
-                Respostas apoiadas pelo contexto do negócio.
-              </h3>
-              <p data-i18n="detail_text_2">
-                A automação consulta as informações necessárias para apresentar
-                opções claras e alinhadas à operação.
-              </p>
-            </div>
-          </article>
-          <article class="project-feature">
-            <span class="project-feature-number" aria-hidden="true">03</span>
-            <div>
-              <h3 data-i18n="detail_feature_3">
-                Uma jornada com começo, meio e fim.
-              </h3>
-              <p data-i18n="detail_text_3">
-                O atendimento conduz o cliente até a confirmação, registra o
-                resultado e deixa a equipe pronta para acompanhar quando
-                necessário.
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-      <section class="project-connection" aria-labelledby="connection-title">
-        <div>
-          <h2 id="connection-title" data-i18n="detail_connection_title">
-            Automação que transforma conversas em oportunidades.
-          </h2>
-          <p data-i18n="detail_connection_text">
-            O AtendeFlow conecta atendimento e operação para reduzir tarefas
-            repetitivas, acelerar respostas e manter cada solicitação avançando
-            com clareza.
-          </p>
-          <a class="text-link" href="./pousada-gestor.html"
-            ><span data-i18n="detail_related"
-              >Conhecer o Pousada Gestor</span
-            ></a
-          >
-        </div>
-      </section>
-      <section class="project-contact">
-        <h2 data-i18n="project_next">Tem um projeto parecido em mente?</h2>
-        <button
-          class="button contact-open"
-          type="button"
-          aria-haspopup="dialog"
-          aria-controls="contact-dialog"
-          data-i18n="contact_action"
-        >
-          Entrar em contato
-        </button>
-      </section>
-    </main>
+    <main id="conteudo" class="case-page case-page--atendeflow container">
+  <nav class="case-topline" aria-label="Navegação do estudo de caso" data-i18n-aria="case_nav_aria"><a class="case-back-button" href="../todos-projetos.html#projetos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14 18-6-6 6-6"/><path d="M8 12h12"/></svg><span data-i18n="back_projects">Voltar aos projetos</span></a><span class="case-topline-note" data-i18n="case_topline_note">ESTUDO DE CASO · AUTOMAÇÃO CONVERSACIONAL</span></nav>
+  <section class="case-hero case-hero--conversation" aria-labelledby="case-title">
+    <div class="case-hero-copy">
+      <div class="case-brandline"><img class="case-brand-logo" src="../imagens/projects/atendeflow/logo.webp" width="56" height="56" alt="" aria-hidden="true" /><p class="case-category" data-i18n="case_category">Atendimento conversacional para hotelaria</p></div>
+      <h1 id="case-title">AtendeFlow</h1>
+      <h2 class="case-headline" data-i18n="case_title">Orquestrei WhatsApp e voz até os fluxos transacionais de reserva.</h2>
+      <p class="case-lead" data-i18n="case_intro">Implementei uma camada conversacional em TypeScript/Fastify que conecta Twilio, OpenAI Realtime, disponibilidade e cobrança. O serviço preserva o estado da conversa e oferece à equipe uma forma de acompanhar e assumir o atendimento.</p>
+      <div class="case-actions"><button class="button contact-open" type="button" aria-haspopup="dialog" aria-controls="contact-dialog" data-i18n="contact_action">Entrar em contato</button><a class="button button-secondary case-anchor" href="#case-engineering"><span data-i18n="case_arch_label">Orquestração</span></a></div>
+      <ul class="case-tech-list" aria-label="Tecnologias do projeto" data-i18n-aria="case_tech_aria"><li>TypeScript</li><li>Fastify</li><li>OpenAI Realtime</li><li>Twilio</li><li>MongoDB</li><li>Asaas</li></ul>
+    </div>
+    <figure class="case-art case-art--conversation" aria-label="Fluxo de atendimento entre canais, regras de reserva e pagamento" data-i18n-aria="atendeflow_visual_alt">
+      <div class="conversation-channel-row"><div class="conversation-channel"><span class="conversation-channel-mark">W</span><strong>WhatsApp</strong><small data-i18n="case_layer_1_text">Mensagens com contexto persistente</small></div><div class="conversation-channel"><span class="conversation-channel-mark">◖</span><strong data-i18n="case_feature_1_title">Desacoplei canais das regras de atendimento</strong><small>Twilio · OpenAI Realtime</small></div></div>
+      <div class="conversation-core"><img src="../imagens/projects/atendeflow/logo.webp" alt="" aria-hidden="true" /><div><span data-i18n="case_arch_label">Orquestração</span><strong>ConversationService</strong><small>TypeScript · Fastify</small></div></div>
+      <div class="conversation-tool-row"><span data-i18n="case_feature_2_title">Protegi a transição entre cotação e cobrança</span><span data-i18n="case_feature_3_title">Implementei intervenção humana no fluxo</span><span data-i18n="case_tool_payment">Cobrança e confirmação</span></div>
+      <div class="conversation-operator"><span class="operator-dot"></span><span data-i18n="case_layer_4_text">Cobrança e acompanhamento</span></div>
+    </figure>
+  </section>
+  <section class="case-story case-story--conversation" aria-labelledby="case-story-title">
+    <div class="case-section-heading"><p class="case-section-label" data-i18n="case_story_label">Jornada conversacional</p><h2 id="case-story-title" data-i18n="case_story_title">O desafio foi tornar a automação previsível entre canais e ações com efeito financeiro.</h2><p data-i18n="case_story_text">Uma conversa pode alternar entre texto e voz, mas disponibilidade, cotação, reserva e cobrança precisam seguir regras consistentes. Separei a orquestração dos provedores e mantive a operação visível para atendentes.</p></div>
+    <div class="case-feature-grid">
+      <article class="case-feature-card"><span class="case-feature-index">01</span><h3 data-i18n="case_feature_1_title">Desacoplei canais das regras de atendimento</h3><p data-i18n="case_feature_1_text">Adaptadores conectam Twilio e OpenAI Realtime ao serviço de conversa. As ferramentas permitidas consideram o canal e o estado atual, evitando misturar integração externa com regra de domínio.</p></article>
+      <article class="case-feature-card"><span class="case-feature-index">02</span><h3 data-i18n="case_feature_2_title">Protegi a transição entre cotação e cobrança</h3><p data-i18n="case_feature_2_text">O serviço valida os dados da estadia e reavalia mudanças no valor antes de criar cobranças. Webhooks atualizam o estado do pagamento após o retorno do Asaas.</p></article>
+      <article class="case-feature-card"><span class="case-feature-index">03</span><h3 data-i18n="case_feature_3_title">Implementei intervenção humana no fluxo</h3><p data-i18n="case_feature_3_text">O painel recebe conversas e estado da automação via WebSocket. Atendentes podem pausar a IA e responder manualmente sem perder o histórico.</p></article>
+    </div>
+  </section>
+  <section class="case-engineering case-engineering--conversation" id="case-engineering" aria-labelledby="case-engineering-title">
+    <div class="case-section-heading"><p class="case-section-label" data-i18n="case_arch_label">Orquestração</p><h2 id="case-engineering-title" data-i18n="case_arch_title">Isolei provedores em adaptadores e concentrei contexto no serviço de domínio.</h2><p data-i18n="case_arch_text">Fastify coordena a conversa em TypeScript; MongoDB persiste mensagens e contexto; Twilio e OpenAI Realtime atendem aos canais; serviços de reserva e Asaas executam etapas transacionais.</p></div>
+    <ol class="case-architecture-flow" aria-hidden="true">
+      <li><span data-i18n="case_arch_step_1_label">CANAIS</span><strong data-i18n="case_flow_channels">WhatsApp · Voz</strong><small data-i18n="case_layer_1_text">Mensagens com contexto persistente</small></li>
+      <li><span data-i18n="case_arch_step_2_label">DOMÍNIO</span><strong>Fastify · TypeScript</strong><small data-i18n="case_layer_2_text">Validação e ferramentas por canal</small></li>
+      <li><span data-i18n="case_arch_step_3_label">RESERVA</span><strong data-i18n="case_flow_booking">Disponibilidade · Cotação</strong><small data-i18n="case_layer_3_text">Disponibilidade e reserva</small></li>
+      <li><span data-i18n="case_arch_step_4_label">PAGAMENTO</span><strong>Asaas · Webhooks</strong><small data-i18n="case_layer_4_text">Cobrança e acompanhamento</small></li>
+    </ol>
+  </section>
+  <section class="case-closing" aria-labelledby="case-closing-title"><div><p class="case-section-label" data-i18n="case_cta_label">Automação supervisionada</p><h2 id="case-closing-title" data-i18n="case_cta_title">IA aplicada precisa de ferramentas limitadas e supervisão operacional.</h2><p data-i18n="case_cta_text">O projeto integra modelos de voz e texto a ações de negócio com validação, persistência e passagem para a equipe, mantendo as integrações externas substituíveis.</p></div><button class="button contact-open" type="button" aria-haspopup="dialog" aria-controls="contact-dialog" data-i18n="contact_action">Entrar em contato</button></section>
+</main>
     <footer class="container site-footer">
       <p>© <span id="current-year">2026</span> Otávio Lopes</p>
       <p data-i18n="footer">Desenvolvimento de produtos e sistemas</p>

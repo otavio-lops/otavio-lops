@@ -19,30 +19,32 @@ Me chamo Otávio. Gosto de construir software que entra na rotina de um negócio
 
 Meu trabalho passa por **produtos web, sistemas de gestão e automações com IA**. Participo das decisões do produto e do desenvolvimento, das interfaces às integrações. Também tenho interesse em **Segurança da Informação**.
 
-> Um pouco do que construo está abaixo. No [meu portfólio](https://otaviolopes.com.br/), você encontra mais detalhes.
+> Um pouco do que construo está abaixo. [Veja todos os projetos no portfólio](https://otaviolopes.com.br/todos-projetos.html).
 
 ## 🧩 O que estou construindo
 
 | Projeto | O que resolve | Minha atuação |
 | :--- | :--- | :--- |
-| **[Pousada Gestor](https://otaviolopes.com.br/#pousada-gestor)** | Reservas, estadias, financeiro e rotinas da equipe em um sistema local de gestão hoteleira. | Desenvolvimento do sistema utilizado na Pousada do Trabalhador, em Canoas/RS. |
-| **[AtendeFlow](https://otaviolopes.com.br/#atendeflow)** | Atendimento com IA por telefone e WhatsApp, conectado à execução de reservas e cobranças. | Criação do sistema e integração com Pousada Gestor e Asaas. |
+| **[AcomodaHub](https://otaviolopes.com.br/#acomodahub)** | Reservas, quartos, hóspedes, operação e financeiro em uma plataforma de gestão hoteleira para web e Android. | Desenvolvimento da plataforma web e do aplicativo móvel. |
 | **[SeuDental](https://seudental.com.br/)** | Agenda, prontuários, odontograma e gestão de múltiplas clínicas em um SaaS odontológico. | Desenvolvedor principal, em parceria com Gustavo Krailing Sampaio. |
+| **[AtendeFlow](https://otaviolopes.com.br/#atendeflow)** | Atendimento com IA por telefone e WhatsApp para orientar clientes e apoiar reservas e cobranças. | Criação do sistema e integrações com canais, sistemas de gestão e cobrança. |
 | **[GaragemWeb](https://garagemweb.com/)** | Criação e administração de sites, catálogos e landing pages para empresas. | CEO e desenvolvedor da plataforma, em parceria com Davi Ribeiro. |
+| **[ETA Fácil](https://otaviolopes.com.br/#etafacil)** | Consultoria independente para compreender requisitos de viagem e preparar solicitações; decisões cabem às autoridades responsáveis. | Desenvolvimento da plataforma e da jornada de orientação. |
+| **[SmartCell](https://otaviolopes.com.br/#smartcell)** | Protótipo de loja virtual de iPhones, com catálogo por geração e estrutura para pedidos; ainda em desenvolvimento. | Desenvolvimento da experiência de catálogo e da estrutura de pedidos. |
 
 <details>
-<summary><strong>🔎 Por dentro de uma integração: AtendeFlow + Pousada Gestor</strong></summary>
+<summary><strong>🔎 Por dentro de um fluxo automatizado de atendimento</strong></summary>
 
 <br>
 
-Na Pousada do Trabalhador, o atendimento com IA acompanha o cliente até a reserva confirmada, 24 horas por dia:
+O atendimento com IA acompanha o cliente até a reserva confirmada, 24 horas por dia:
 
 1. **Conversa e coleta** — atende por telefone e WhatsApp e reúne os dados do cliente.
-2. **Consulta e cobra** — consulta o Pousada Gestor e gera a cobrança pelo Asaas.
-3. **Verifica e reserva** — acompanha o pagamento e registra a reserva no sistema.
+2. **Consulta e cobra** — consulta a disponibilidade no sistema de gestão integrado e gera a cobrança pelo Asaas.
+3. **Verifica e reserva** — acompanha o pagamento e registra a reserva no sistema de gestão.
 4. **Confirma e envia** — gera o comprovante e o envia pelo WhatsApp.
 
-Essa integração reúne duas frentes do meu trabalho: **construir o sistema de gestão** e **automatizar os processos que chegam até ele**.
+Esse fluxo combina duas frentes do meu trabalho: **integrar sistemas de gestão e cobrança** e **automatizar os processos que chegam até eles**.
 
 [Ver o projeto no portfólio →](https://otaviolopes.com.br/#atendeflow)
 

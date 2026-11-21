@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Conheça os projetos de Otávio Lopes: sistemas de gestão, produtos web, atendimento com IA e experiências digitais."
+    />
+    <meta name="author" content="Otávio Lopes" />
+    <meta name="theme-color" content="#f3f4f5" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Otávio Lopes" />
+    <meta property="og:url" content="https://otaviolopes.com.br/todos-projetos.html" />
+    <meta
+      property="og:title"
+      content="Todos os projetos | Otávio Lopes"
+    />
+    <meta
+      property="og:description"
+      content="Conheça os projetos de Otávio Lopes: sistemas de gestão, produtos web, atendimento com IA e experiências digitais."
+    />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:locale:alternate" content="pt_PT" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta
+      property="og:image"
+      content="https://otaviolopes.com.br/imagens/profile/otavio-lopes.webp"
+    />
+    <meta property="og:image:alt" content="Otávio Lopes" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Todos os projetos | Otávio Lopes"
+    />
+    <meta
+      name="twitter:description"
+      content="Conheça os projetos de Otávio Lopes: sistemas de gestão, produtos web, atendimento com IA e experiências digitais."
+    />
+    <meta
+      name="twitter:image"
+      content="https://otaviolopes.com.br/imagens/profile/otavio-lopes.webp"
+    />
+    <meta name="twitter:image:alt" content="Otávio Lopes" />
+    <link rel="canonical" href="https://otaviolopes.com.br/todos-projetos.html" />
+    <link rel="author" href="https://github.com/otavio-lops" />
+    <link rel="icon" type="image/webp" href="./imagens/brand/favicon.webp" />
+    <link
+      rel="preload"
+      href="./fonts/manrope-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin=""
+    />
+    <title>Todos os projetos | Otávio Lopes</title>
+    <script>
+      (() => {
+        let theme;
+        try {
+          theme = localStorage.getItem("otavio-theme-choice");
+        } catch (_) {}
+        document.documentElement.dataset.theme = ["light", "dark"].includes(
+          theme,
+        )
+          ? theme
+          : matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://otaviolopes.com.br/todos-projetos.html#webpage",
+            "url": "https://otaviolopes.com.br/todos-projetos.html",
+            "name": "Todos os projetos | Otávio Lopes",
+            "description": "Conheça os projetos de Otávio Lopes: sistemas de gestão, produtos web, atendimento com IA e experiências digitais.",
+            "inLanguage": "pt-BR",
+            "isPartOf": { "@id": "https://otaviolopes.com.br/#website" },
+            "author": { "@id": "https://otaviolopes.com.br/#person" },
+            "mainEntity": { "@id": "https://otaviolopes.com.br/todos-projetos.html#projects" }
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://otaviolopes.com.br/todos-projetos.html#projects",
+            "name": "Todos os projetos de Otávio Lopes",
+            "numberOfItems": 6,
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "AcomodaHub", "url": "https://otaviolopes.com.br/projetos/acomodahub.html" },
+              { "@type": "ListItem", "position": 2, "name": "SeuDental", "url": "https://otaviolopes.com.br/projetos/seudental.html" },
+              { "@type": "ListItem", "position": 3, "name": "AtendeFlow", "url": "https://otaviolopes.com.br/projetos/atendeflow.html" },
+              { "@type": "ListItem", "position": 4, "name": "GaragemWeb", "url": "https://otaviolopes.com.br/projetos/garagemweb.html" },
+              { "@type": "ListItem", "position": 5, "name": "ETA Fácil", "url": "https://otaviolopes.com.br/projetos/etafacil.html" },
+              { "@type": "ListItem", "position": 6, "name": "SmartCell", "url": "https://otaviolopes.com.br/projetos/smartcell.html" }
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://otaviolopes.com.br/#person",
+            "name": "Otávio Lopes",
+            "url": "https://otaviolopes.com.br/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://otaviolopes.com.br/#website",
+            "name": "Otávio Lopes",
+            "url": "https://otaviolopes.com.br/"
+          }
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="./vendor/select2.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+  </head>
+  <body data-page="all-projects">
+    <a class="skip-link" href="#conteudo" data-i18n="skip"
+      >Ir para o conteúdo</a
+    >
+    <header class="site-header container">
+      <a class="brand" href="./index.html#inicio" aria-label="otávio.lopes"
+        >otávio<span class="brand-dot">.</span>lopes</a
+      >
+      <nav
+        id="navigation"
+        class="main-nav"
+        aria-label="Navegação principal"
+        data-i18n-aria="navigation"
+      >
+        <a href="./index.html#inicio" data-i18n="nav_home">Início</a
+        ><a href="./todos-projetos.html#projetos" data-i18n="nav_projects">Projetos</a
+        ><a href="./index.html#sobre" data-i18n="nav_about">Sobre</a
+        ><button
+          class="button header-contact contact-open"
+          type="button"
+          data-i18n="contact_action"
+          aria-haspopup="dialog"
+          aria-controls="contact-dialog"
+        >
+          Entrar em contato
+        </button>
+      </nav>
+      <div class="header-controls">
+        <label class="sr-only" for="language" data-i18n="language"
+          >Idioma</label
+        >
+        <div class="language-picker">
+          <select id="language">
+            <option value="auto" data-i18n="detect_language">Detectar idioma</option>
+            <option value="pt-BR" lang="pt-BR">Português (Brasil)</option>
+            <option value="pt-PT" lang="pt-PT">Português (Portugal)</option>
+            <option value="en-US" lang="en-US">English (USA)</option>
+            <option value="es" lang="es-ES">Español (España)</option>
+          </select>
+        </div>
+        <button
+          type="button"
+          class="theme-toggle"
+          aria-label="Ativar tema escuro"
+          aria-pressed="false"
+        >
+          <span class="theme-symbol" aria-hidden="true"></span>
+        </button>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-label="Menu"
+          data-i18n-aria="menu"
+          aria-controls="navigation"
+          aria-expanded="false"
+        >
+          <span data-i18n="menu">Menu</span
+          ><span class="menu-symbol" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+    <main id="conteudo" class="all-projects-main">
+
+      <section id="projetos" class="all-projects container section" aria-labelledby="all-projects-heading">
+        <div class="all-projects-intro">
+          <p class="section-label" data-i18n="nav_projects">Projetos</p>
+          <h1 id="all-projects-heading" data-i18n="all_projects_heading">Todos os projetos</h1>
+          <p class="all-projects-lead" data-i18n="all_projects_intro">
+            Uma seleção de produtos, sistemas e experiências digitais que venho desenvolvendo.
+          </p>
+        </div>
+        <div class="project-grid">
+          <article class="project-grid-card" aria-labelledby="all-acomodahub-name">
+            <figure class="project-grid-media project-grid-media-device">
+              <img
+                src="./imagens/projects/acomodahub/macbook.png"
+                alt="MacBook do AcomodaHub exibindo o painel de reservas, ocupação e recebimentos"
+                data-i18n-alt="accommodation_dashboard_alt"
+                width="3944"
+                height="2564"
+                loading="lazy"
+              />
+            </figure>
+            <div class="project-grid-body">
+              <div class="project-grid-heading">
+                <h2 id="all-acomodahub-name">AcomodaHub</h2>
+                <span class="project-grid-type" data-i18n="all_project_type_fullstack">Full-stack</span>
+              </div>
+              <ul class="project-tech-list" aria-label="Tecnologias do projeto" data-i18n-aria="tech_stack_aria"><li>TypeScript</li><li>React</li><li>Fastify</li><li>PostgreSQL</li><li>Capacitor</li></ul>
+              <p class="project-grid-statement" data-i18n="h_title">A operação da hospedagem, em uma visão clara.</p>
+              <p class="project-grid-description" data-i18n="all_acomodahub_description">
+                Reservas, quartos, chegadas, saídas e recebimentos reunidos para orientar a rotina de uma hospedagem.
+              </p>
+              <div class="project-grid-actions">
+                <a class="button project-grid-link" href="./projetos/acomodahub.html">
+                  <span data-i18n="all_project_details">Mais detalhes</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-grid-card" aria-labelledby="all-seudental-name">
+            <figure class="project-grid-media project-grid-media-device">
+              <img
+                src="./imagens/projects/seudental/macbook.png"
+                alt="MacBook do SeuDental exibindo a agenda e a visão da clínica"
+                data-i18n-alt="dental_alt"
+                width="3944"
+                height="2564"
+                loading="lazy"
+              />
+            </figure>
+            <div class="project-grid-body">
+              <div class="project-grid-heading">
+                <h2 id="all-seudental-name">SeuDental</h2>
+                <span class="project-grid-type" data-i18n="all_project_type_fullstack">Full-stack</span>
+              </div>
+              <ul class="project-tech-list" aria-label="Tecnologias do projeto" data-i18n-aria="tech_stack_aria"><li>React</li><li>Express</li><li>PostgreSQL</li><li>WebSocket</li><li>ONNX Runtime Web</li><li>Mercado Pago</li></ul>
+              <p class="project-grid-statement" data-i18n="s_title">Uma visão clara para cuidar da clínica.</p>
+              <p class="project-grid-description" data-i18n="all_seudental_description">
+                Agenda, pacientes, prontuários, odontograma, financeiro e equipe organizados por clínica.
+              </p>
+              <div class="project-grid-actions">
+                <a class="button project-grid-link" href="./projetos/seudental.html">
+                  <span data-i18n="all_project_details">Mais detalhes</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-grid-card" aria-labelledby="all-atendeflow-name">
+            <div class="project-grid-media project-grid-media-brand" aria-hidden="true">
+              <img
+                class="project-grid-logo"
+                src="./imagens/projects/atendeflow/logo.webp"
+                alt=""
+                width="240"
+                height="240"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-grid-body">
+              <div class="project-grid-heading">
+                <h2 id="all-atendeflow-name">AtendeFlow</h2>
+                <span class="project-grid-type" data-i18n="all_project_type_end_to_end">End-to-end</span>
+              </div>
+              <ul class="project-tech-list" aria-label="Tecnologias do projeto" data-i18n-aria="tech_stack_aria"><li>TypeScript</li><li>OpenAI Realtime</li><li>Twilio</li><li>Asaas</li><li>WebSocket</li></ul>
+              <p class="project-grid-statement" data-i18n="a_title">Atendimento que transforma interesse em reserva.</p>
+              <p class="project-grid-description" data-i18n="all_atendeflow_description">
+                Acompanha conversas por WhatsApp e voz até consultar disponibilidade, organizar reservas e iniciar cobranças.
+              </p>
+              <div class="project-grid-actions">
+                <a class="button project-grid-link" href="./projetos/atendeflow.html">
+                  <span data-i18n="all_project_details">Mais detalhes</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-grid-card" aria-labelledby="all-garagemweb-name">
+            <figure class="project-grid-media project-grid-media-device">
+              <img
+                src="./imagens/projects/garagemweb/macbook.png"
+                alt="MacBook da GaragemWeb exibindo o painel administrativo e financeiro"
+                data-i18n-alt="garage_alt"
+                width="3944"
+                height="2564"
+                loading="lazy"
+              />
+            </figure>
+            <div class="project-grid-body">
+              <div class="project-grid-heading">
+                <h2 id="all-garagemweb-name">GaragemWeb</h2>
+                <span class="project-grid-type" data-i18n="all_project_type_backend_devops">Back-end &amp; DevOps</span>
+              </div>
+              <ul class="project-tech-list" aria-label="Tecnologias do projeto" data-i18n-aria="tech_stack_aria"><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Cloudinary</li><li>Mercado Pago</li></ul>
+              <p class="project-grid-statement" data-i18n="g_title">Uma presença digital pronta para gerar oportunidades.</p>
+              <p class="project-grid-description" data-i18n="all_garagemweb_description">
+                Administração de sites de clientes, conteúdo, catálogos, documentos e serviços em um painel central.
+              </p>
+              <div class="project-grid-actions">
+                <a class="button project-grid-link" href="./projetos/garagemweb.html">
+                  <span data-i18n="all_project_details">Mais detalhes</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-grid-card" aria-labelledby="all-etafacil-name">
+            <figure class="project-grid-media project-grid-media-device">
+              <img
+                src="./imagens/projects/etafacil/macbook.png"
+                alt="MacBook da ETA Fácil exibindo a plataforma de orientação para viagens"
+                data-i18n-alt="etafacil_alt"
+                width="3944"
+                height="2564"
+                loading="lazy"
+              />
+            </figure>
+            <div class="project-grid-body">
+              <div class="project-grid-heading">
+                <h2 id="all-etafacil-name">ETA Fácil</h2>
+                <span class="project-grid-type" data-i18n="all_project_type_backend">Back-end</span>
+              </div>
+              <ul class="project-tech-list" aria-label="Tecnologias do projeto" data-i18n-aria="tech_stack_aria"><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Mercado Pago</li><li>Joi</li></ul>
+              <p class="project-grid-statement" data-i18n="eta_title">Mais clareza para preparar sua viagem.</p>
+              <p class="project-grid-description" data-i18n="all_etafacil_description">
+                Acompanha o viajante da consulta de requisitos ao envio de documentos e à atualização do pedido.
+              </p>
+              <div class="project-grid-actions">
+                <a class="button project-grid-link" href="./projetos/etafacil.html">
+                  <span data-i18n="all_project_details">Mais detalhes</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-grid-card" aria-labelledby="all-smartcell-name">
+            <figure class="project-grid-media project-grid-media-device">
+              <img
+                src="./imagens/projects/smartcell/macbook.png"
+                alt="MacBook da SmartCell exibindo a loja de iPhones"
+                data-i18n-alt="smartcell_alt"
+                width="3944"
+                height="2564"
+                loading="lazy"
+              />
+            </figure>
+            <div class="project-grid-body">
+              <div class="project-grid-heading">
+                <h2 id="all-smartcell-name">SmartCell</h2>
+                <span class="project-grid-type" data-i18n="all_project_type_backend_devops_comma">Back-end, DevOps</span>
+              </div>
+              <ul class="project-tech-list" aria-label="Tecnologias do projeto" data-i18n-aria="tech_stack_aria"><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Mercado Pago</li></ul>
+              <p class="project-grid-statement" data-i18n="smartcell_title">Uma experiência de compra para escolher seu próximo iPhone.</p>
+              <p class="project-grid-description" data-i18n="all_smartcell_description">
+                Protótipo de catálogo de iPhones por geração, com detalhes dos modelos e início do fluxo de pedidos. Em desenvolvimento.
+              </p>
+              <div class="project-grid-actions">
+                <a class="button project-grid-link" href="./projetos/smartcell.html">
+                  <span data-i18n="all_project_details">Mais detalhes</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+    <footer class="container site-footer">
+      <p>© <span id="current-year">2026</span> Otávio Lopes</p>
+      <p data-i18n="footer">Desenvolvimento de produtos e sistemas</p>
+      <a href="./index.html#inicio" class="text-link"
+        ><span data-i18n="back">Voltar ao início</span></a
+      >
+    </footer>
+    <dialog
+      id="contact-dialog"
+      class="contact-dialog"
+      aria-labelledby="contact-dialog-title"
+    >
+      <div class="dialog-heading">
+        <h2 id="contact-dialog-title" data-i18n="contact_action">
+          Entrar em contato
+        </h2>
+        <button
+          class="dialog-close contact-dialog-close"
+          type="button"
+          aria-label="Fechar"
+          data-i18n-aria="close"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            aria-hidden="true"
+          >
+            <path d="m6 6 12 12M18 6 6 18" />
+          </svg>
+        </button>
+      </div>
+      <div class="contact-dialog-grid">
+        <section
+          class="contact-form-card"
+          aria-labelledby="contact-intro-title"
+        >
+          <h3 id="contact-intro-title" data-i18n="contact_intro">
+            Qual é o próximo passo do seu projeto?
+          </h3>
+          <p data-i18n="contact_intro_text">
+            Conte o que você quer construir ou melhorar e em que ponto está
+            hoje.
+          </p>
+          <form
+            id="contact-form"
+            class="contact-form"
+            action="https://formspree.io/f/xaeqbloy"
+            method="POST"
+            aria-describedby="contact-status"
+          >
+            <div class="contact-fields">
+              <div class="form-field">
+                <label for="contact-name" data-i18n="form_name">Nome</label
+                ><input
+                  id="contact-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                  maxlength="120"
+                />
+              </div>
+              <div class="form-field">
+                <label for="contact-email" data-i18n="form_email"
+                  >Seu e-mail</label
+                ><input
+                  id="contact-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  maxlength="254"
+                />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="contact-message" data-i18n="form_message"
+                >Sua mensagem</label
+              ><textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                required
+                maxlength="10000"
+              ></textarea>
+            </div>
+            <input
+              class="form-honeypot"
+              type="text"
+              name="_gotcha"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            />
+            <button class="button form-submit" type="submit">
+              <span data-i18n="form_send">Enviar mensagem</span>
+            </button>
+            <p
+              id="contact-status"
+              class="contact-status"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+            ></p>
+          </form>
+        </section>
+        <aside
+          class="contact-response-card"
+          aria-labelledby="contact-response-title"
+        >
+          <span data-i18n="contact_response_time" class="response-time"
+            >Até 8h</span
+          >
+          <h3 data-i18n="contact_response_title" id="contact-response-title">
+            Para o primeiro retorno.
+          </h3>
+          <p data-i18n="contact_response_text">
+            Leio sua mensagem e retorno por e-mail para entender o que você
+            precisa.
+          </p>
+          <div class="contact-direct">
+            <svg
+              class="icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path
+                d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H4l-2 2V11.5A8.5 8.5 0 0 1 10.5 3H13a8 8 0 0 1 8 8.5Z"
+              />
+              <path d="M7 10h10M7 14h6" />
+            </svg>
+            <div>
+              <h4 data-i18n="contact_direct_title">
+                Depois, a conversa segue de perto.
+              </h4>
+              <p data-i18n="contact_direct_text">
+                Combinamos um canal direto para trocar ideias e resolver os
+                próximos passos com agilidade.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </dialog>
+    <script src="./vendor/jquery.min.js" defer></script>
+    <script src="./vendor/select2.min.js" defer></script>
+    <script src="./script.js" defer=""></script>
+  </body>
+</html>
