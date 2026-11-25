@@ -25,7 +25,7 @@ Meu trabalho passa por **produtos web, sistemas de gestão e automações com IA
 
 | Projeto | O que resolve | Minha atuação |
 | :--- | :--- | :--- |
-| **[AcomodaHub](https://otaviolopes.com.br/#acomodahub)** | Reservas, quartos, hóspedes, operação e financeiro em uma plataforma de gestão hoteleira para web e Android. | Desenvolvimento da plataforma web e do aplicativo móvel. |
+| **[AcomodaHub](https://otaviolopes.com.br/#acomodahub)** | Reservas, quartos, hóspedes, operação e financeiro em uma plataforma de gestão hoteleira para web e Android. | Desenvolvimento do SaaS e do aplicativo móvel. |
 | **[SeuDental](https://seudental.com.br/)** | Agenda, prontuários, odontograma e gestão de múltiplas clínicas em um SaaS odontológico. | Desenvolvedor principal, em parceria com Gustavo Krailing Sampaio. |
 | **[AtendeFlow](https://otaviolopes.com.br/#atendeflow)** | Atendimento com IA por telefone e WhatsApp para orientar clientes e apoiar reservas e cobranças. | Criação do sistema e integrações com canais, sistemas de gestão e cobrança. |
 | **[GaragemWeb](https://garagemweb.com/)** | Criação e administração de sites, catálogos e landing pages para empresas. | CEO e desenvolvedor da plataforma, em parceria com Davi Ribeiro. |
